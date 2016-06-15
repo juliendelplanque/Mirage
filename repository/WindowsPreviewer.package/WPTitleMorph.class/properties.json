@@ -1,0 +1,14 @@
+{
+	"category" : "WindowsPreviewer",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "JulienDelplanque 6/15/2016 22:06",
+	"instvars" : [
+		"title" ],
+	"name" : "WPTitleMorph",
+	"pools" : [
+		 ],
+	"super" : "Morph",
+	"type" : "normal" }

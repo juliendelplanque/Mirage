@@ -1,0 +1,3 @@
+actions
+selectPreviousThumbnail
+	self selectThumbnailUsing: #previousThumbnail
