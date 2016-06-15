@@ -1,8 +1,8 @@
 actions
 selectThumbnailUsing: aSymbol
 	"Change thumbnail selected"
-	current borderColor: Color black.
+	currentThumbnail borderColor: Color black.
 	aSymbol value: self.
-	current borderColor: Color red.
+	currentThumbnail borderColor: Color red.
 	"Title management"
-	titleMorph title: self windowForCurrentThumbnail title.
+	titleMorph title: self windowForCurrentThumbnail label contents.

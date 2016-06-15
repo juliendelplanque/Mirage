@@ -1,8 +1,8 @@
 thumbnails
 nextThumbnail
 	| index |
-	index := self thumbnails indexOf: current.
-	current := index = self thumbnails size
+	index := self thumbnails indexOf: currentThumbnail.
+	currentThumbnail := index = self thumbnails size
 					ifTrue: [ self thumbnails first ]
-					ifFalse: [ current := self thumbnails at: index + 1 ].
-	^ current
+					ifFalse: [ currentThumbnail := self thumbnails at: index + 1 ].
+	^ currentThumbnail

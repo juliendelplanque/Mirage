@@ -11,7 +11,7 @@ initialize
 	self extent: (self thumbnails collect: [ :t | t extent x ]) sum@self thumbnails first extent y.
 	self addAllMorphs: self thumbnails.
 	self positionThumbnails.
-	current := self submorphs first.
+	currentThumbnail := self submorphs first.
 	
 	self initializeTitleMorph.
 	

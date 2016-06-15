@@ -8,10 +8,10 @@
 	"commentStamp" : "JulienDelplanque 6/15/2016 16:17",
 	"instvars" : [
 		"thumbnailSize",
-		"current",
 		"thumbnails",
 		"thumbnailsBorderColor",
-		"titleMorph" ],
+		"titleMorph",
+		"currentThumbnail" ],
 	"name" : "WPMorph",
 	"pools" : [
 		 ],

@@ -1,5 +1,5 @@
 accessing
 windowForCurrentThumbnail
 	| index |
-	index := self thumbnails indexOf: current.
+	index := self thumbnails indexOf: currentThumbnail.
 	^ (self windowsOrderedByTaskbar at: index)
