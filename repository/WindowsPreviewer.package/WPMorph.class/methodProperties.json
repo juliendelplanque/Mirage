@@ -3,7 +3,7 @@
 		"createGlobalKMCategory" : "JulienDelplanque 6/15/2016 20:49",
 		"createOpenShortcut" : "JulienDelplanque 6/15/2016 20:58",
 		"globalKMCategory" : "JulienDelplanque 6/15/2016 20:49",
-		"globalKMCategoryName" : "JulienDelplanque 6/15/2016 20:49",
+		"globalKMCategoryName" : "JulienDelplanque 6/16/2016 18:53",
 		"open" : "JulienDelplanque 6/15/2016 19:25",
 		"openAndTakeKeyboardFocus" : "JulienDelplanque 6/16/2016 14:49" },
 	"instance" : {
@@ -14,7 +14,7 @@
 		"handleCloseRequest:" : "JulienDelplanque 6/16/2016 18:14",
 		"handleThumbnailSelected:" : "JulienDelplanque 6/16/2016 18:25",
 		"initialize" : "JulienDelplanque 6/16/2016 18:22",
-		"initializeThumbnails" : "JulienDelplanque 6/16/2016 18:09",
+		"initializeThumbnails" : "JulienDelplanque 6/16/2016 19:16",
 		"initializeTitleMorph" : "JulienDelplanque 6/16/2016 09:43",
 		"isInCurrentWorld" : "JulienDelplanque 6/16/2016 13:26",
 		"isInWorld:" : "JulienDelplanque 6/16/2016 13:23",
@@ -24,5 +24,7 @@
 		"thumbnails:" : "JulienDelplanque 6/15/2016 21:40",
 		"thumbnailsBorderColor" : "JulienDelplanque 6/15/2016 22:09",
 		"thumbnailsBorderColor:" : "JulienDelplanque 6/16/2016 18:37",
+		"thumbnailsBorderWidth" : "JulienDelplanque 6/16/2016 19:14",
+		"thumbnailsBorderWidth:" : "JulienDelplanque 6/16/2016 19:14",
 		"wpModel" : "JulienDelplanque 6/16/2016 18:10",
 		"wpModel:" : "JulienDelplanque 6/16/2016 18:37" } }

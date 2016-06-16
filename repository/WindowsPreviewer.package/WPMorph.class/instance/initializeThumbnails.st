@@ -2,11 +2,12 @@ initialization
 initializeThumbnails
 	self
 		thumbnailsBorderColor: Color orange;
+		thumbnailsBorderWidth: 3;
 		thumbnails: self collectWindowsThumbnails.
 	self thumbnails
 		do: [ :m | 
 			m
-				borderWidth: 1;
+				borderWidth: self thumbnailsBorderWidth;
 				borderColor: Color black ].
 	self
 		extent:

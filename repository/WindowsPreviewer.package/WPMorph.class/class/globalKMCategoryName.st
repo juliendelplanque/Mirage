@@ -1,3 +1,3 @@
 keymap
 globalKMCategoryName
-	^ #EWindowsPreviewGlobal
+	^ #WindowsPreviewGlobal

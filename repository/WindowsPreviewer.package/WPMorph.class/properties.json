@@ -9,6 +9,7 @@
 		"wpModel",
 		"thumbnails",
 		"thumbnailsBorderColor",
+		"thumbnailsBorderWidth",
 		"titleMorph",
 		"currentThumbnail" ],
 	"name" : "WPMorph",
