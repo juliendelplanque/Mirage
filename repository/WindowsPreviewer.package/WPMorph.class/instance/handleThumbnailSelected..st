@@ -7,4 +7,4 @@ handleThumbnailSelected: aWPThumbnailSelected
 	
 	currentThumbnail borderColor: self thumbnailsSelectedBorderColor.
 	"Title management"
-	titleMorph title: (self wpModel windowsManaged at: aWPThumbnailSelected index)label contents.
+	titleMorph title: self wpModel currentWindow label contents.

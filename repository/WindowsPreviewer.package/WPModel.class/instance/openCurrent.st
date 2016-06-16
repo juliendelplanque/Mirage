@@ -1,4 +1,4 @@
 actions
 openCurrent
-	(self windowsManaged at: currentIndex) taskbarButtonClicked.
+	self currentWindow taskbarButtonClicked.
 	self announceCloseRequest
