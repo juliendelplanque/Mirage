@@ -4,5 +4,4 @@ createShortcuts
 		on: Character space asKeyCombination do: [ self wpModel openCurrent ];
 		on: KMUntypeableSingleKeyCombination escape do: [ self wpModel announceCloseRequest ];
 		on: KMUntypeableSingleKeyCombination tab do: [ self wpModel next ];
-		on: KMModifier shift + KMUntypeableSingleKeyCombination tab do: [ self wpModel previous ]";
-		on: KMModifier ctrl + $w asKeyCombination do: [ self closeCurrentWindow ]". self flag: #TODO
+		on: KMModifier shift + KMUntypeableSingleKeyCombination tab do: [ self wpModel previous ]
