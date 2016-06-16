@@ -1,18 +1,15 @@
 initialization
 initialize
 	super initialize.
+	self
+		wpModel: WPModel new;
+		color: Color transparent;
+		listenToWPModelAnnouncements;
+		listenToFocusLoss;
+		initializeThumbnails;
+		initializeTitleMorph;
+		createShortcuts;
+		beSticky.
 	
-	self wpModel: WPModel new.
-	self listenToWPModelAnnouncements.
-	self color: Color transparent.
-	self initializeThumbnails.
-	
-	self initializeTitleMorph.
-	
-	self createShortcuts.
-	self wpModel announceThumbnailSelected: 1.
-	
-	self announcer when: MorphLostFocus do: [ :ann |
-		self closeIfNeeded ].
-	
-	self sticky: true
+	"The next line to have a border around the first thumbnail."
+	self wpModel announceThumbnailSelected: 1
