@@ -1,4 +1,4 @@
 actions
 activateCurrentWindow
-	self windowForCurrentThumbnail activate.
+	self windowForCurrentThumbnail taskbarButtonClicked.
 	self closeIfNeeded

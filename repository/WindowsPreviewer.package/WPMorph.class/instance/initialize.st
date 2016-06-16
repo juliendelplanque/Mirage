@@ -11,4 +11,6 @@ initialize
 	self selectThumbnailUsing: #yourself.
 	
 	self announcer when: MorphLostFocus do: [ :ann |
-		self closeIfNeeded ]
+		self closeIfNeeded ].
+	
+	self sticky: true
