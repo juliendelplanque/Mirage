@@ -8,6 +8,7 @@
 	"instvars" : [
 		"wpModel",
 		"thumbnails",
+		"thumbnailsSelectedBorderColor",
 		"thumbnailsBorderColor",
 		"thumbnailsBorderWidth",
 		"titleMorph",

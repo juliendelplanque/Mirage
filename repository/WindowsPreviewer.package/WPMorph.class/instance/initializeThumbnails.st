@@ -1,14 +1,15 @@
 initialization
 initializeThumbnails
 	self
-		thumbnailsBorderColor: Color orange;
+		thumbnailsBorderColor: Color black;
+		thumbnailsSelectedBorderColor: Color orange;
 		thumbnailsBorderWidth: 3;
 		thumbnails: self collectWindowsThumbnails.
 	self thumbnails
 		do: [ :m | 
 			m
 				borderWidth: self thumbnailsBorderWidth;
-				borderColor: Color black ].
+				borderColor: self thumbnailsBorderColor ].
 	self
 		extent:
 			(self thumbnails collect: [ :t | t width ]) sum @ (self thumbnails detectMax: #height) height.
