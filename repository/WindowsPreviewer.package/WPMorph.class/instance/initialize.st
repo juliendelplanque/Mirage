@@ -9,3 +9,6 @@ initialize
 	
 	self createShortcuts.
 	self selectThumbnailUsing: #yourself.
+	
+	self announcer when: MorphLostFocus do: [ :ann |
+		self closeIfNeeded ]

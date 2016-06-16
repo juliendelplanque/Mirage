@@ -1,4 +1,4 @@
 actions
 closeCurrentWindow
 	self windowForCurrentThumbnail close.
-	self close.
+	self closeIfNeeded
