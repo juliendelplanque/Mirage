@@ -1,3 +1,3 @@
 accessing
-thumbnailsBorderColor: anObject
-	thumbnailsBorderColor := anObject
+thumbnailsBorderColor: aColor
+	thumbnailsBorderColor := aColor

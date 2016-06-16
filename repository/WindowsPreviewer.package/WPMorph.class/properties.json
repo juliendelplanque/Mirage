@@ -1,13 +1,12 @@
 {
-	"category" : "WindowsPreviewer",
+	"category" : "WindowsPreviewer-Morphic",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "WPWindowManipulator classTrait",
 	"classvars" : [
 		 ],
 	"commentStamp" : "JulienDelplanque 6/15/2016 16:17",
 	"instvars" : [
-		"thumbnailSize",
+		"wpModel",
 		"thumbnails",
 		"thumbnailsBorderColor",
 		"titleMorph",
@@ -16,5 +15,4 @@
 	"pools" : [
 		 ],
 	"super" : "Morph",
-	"traitcomposition" : "WPWindowManipulator",
 	"type" : "normal" }

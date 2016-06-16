@@ -1,7 +1,6 @@
 initialization
 initializeThumbnails
 	self
-		thumbnailSize: World extent * (0.2 @ 0.2);
 		thumbnailsBorderColor: Color orange;
 		thumbnails: self collectWindowsThumbnails.
 	self thumbnails

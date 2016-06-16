@@ -1,4 +1,3 @@
 thumbnails
 collectWindowsThumbnails
-	^ self windowsOrderedByTaskbar collect: [ :window |
-		window taskbarThumbnail ]
+	^ self wpModel windowsManaged collect: #wpThumbnail

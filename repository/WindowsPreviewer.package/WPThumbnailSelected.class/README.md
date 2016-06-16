@@ -1,0 +1,1 @@
+I announce the fact that the thumbnail at index #index has been selected.

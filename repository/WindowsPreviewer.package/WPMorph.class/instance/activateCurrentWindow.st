@@ -1,4 +1,0 @@
-actions
-activateCurrentWindow
-	self windowForCurrentThumbnail taskbarButtonClicked.
-	self closeIfNeeded
