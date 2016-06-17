@@ -4,11 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "JulienDelplanque 6/16/2016 16:50",
+	"commentStamp" : "JulienDelplanque 6/17/2016 07:11",
 	"instvars" : [
-		"index" ],
-	"name" : "WPThumbnailSelected",
+		"model" ],
+	"name" : "WPModelAnnouncement",
 	"pools" : [
 		 ],
-	"super" : "WPModelAnnouncement",
+	"super" : "Announcement",
 	"type" : "normal" }

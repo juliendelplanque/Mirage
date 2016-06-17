@@ -10,5 +10,5 @@
 	"name" : "WPCloseRequest",
 	"pools" : [
 		 ],
-	"super" : "Announcement",
+	"super" : "WPModelAnnouncement",
 	"type" : "normal" }
