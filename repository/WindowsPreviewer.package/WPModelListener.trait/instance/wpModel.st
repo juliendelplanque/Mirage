@@ -1,3 +1,0 @@
-accessing
-wpModel
-	^ self subclassResponsibility

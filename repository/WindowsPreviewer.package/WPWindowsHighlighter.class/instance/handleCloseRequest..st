@@ -1,3 +1,3 @@
-announcements handling
+announcement handling
 handleCloseRequest: aWPCloseRequest
 	World removeMorph: highlightMorph

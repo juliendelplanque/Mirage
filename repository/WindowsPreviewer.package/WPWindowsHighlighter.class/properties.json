@@ -7,7 +7,6 @@
 		 ],
 	"commentStamp" : "JulienDelplanque 6/16/2016 21:38",
 	"instvars" : [
-		"wpModel",
 		"highlightColor",
 		"highlightWidth",
 		"highlightMorph" ],

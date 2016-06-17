@@ -2,7 +2,7 @@ announcement handling
 handleThumbnailSelected: aWPThumbnailSelected
 	
 	highlightMorph
-		position: self wpModel currentWindow position; 
-		extent: self wpModel currentWindow extent;
+		position: aWPThumbnailSelected model currentWindow position; 
+		extent: aWPThumbnailSelected model currentWindow extent;
 		borderWidth: self highlightWidth;
 		borderColor: self highlightColor
