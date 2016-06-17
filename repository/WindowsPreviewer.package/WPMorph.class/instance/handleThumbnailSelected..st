@@ -1,10 +1,9 @@
 announcement handling
 handleThumbnailSelected: aWPThumbnailSelected
-	currentThumbnail borderColor: Color black.
+	aWPThumbnailSelected previousThumbnail
+		borderColor: Color black.
 	
-	"Change thumbnail selected"
-	currentThumbnail := self thumbnails at: aWPThumbnailSelected index.
+	aWPThumbnailSelected thumbnail
+		borderColor: self thumbnailsSelectedBorderColor.
 	
-	currentThumbnail borderColor: self thumbnailsSelectedBorderColor.
-	"Title management"
-	titleMorph title: self wpModel currentWindow label contents.
+	titleMorph title: aWPThumbnailSelected window label contents.
