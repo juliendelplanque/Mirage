@@ -2,13 +2,12 @@
 	"class" : {
 		 },
 	"instance" : {
-		"handleCloseRequest:" : "JulienDelplanque 6/16/2016 22:07",
+		"handleCloseRequest:" : "JulienDelplanque 6/17/2016 06:54",
 		"handleThumbnailSelected:" : "JulienDelplanque 6/16/2016 22:14",
 		"highlightColor" : "JulienDelplanque 6/16/2016 22:12",
 		"highlightColor:" : "JulienDelplanque 6/16/2016 22:12",
 		"highlightWidth" : "JulienDelplanque 6/16/2016 22:14",
 		"highlightWidth:" : "JulienDelplanque 6/16/2016 22:14",
 		"initialize" : "JulienDelplanque 6/16/2016 22:19",
-		"listenToWPModelAnnouncements" : "JulienDelplanque 6/16/2016 21:39",
 		"wpModel" : "JulienDelplanque 6/16/2016 21:39",
 		"wpModel:" : "JulienDelplanque 6/16/2016 21:39" } }

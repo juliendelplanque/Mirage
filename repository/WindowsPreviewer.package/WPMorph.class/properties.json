@@ -2,6 +2,7 @@
 	"category" : "WindowsPreviewer-Morphic",
 	"classinstvars" : [
 		 ],
+	"classtraitcomposition" : "WPModelListener classTrait",
 	"classvars" : [
 		 ],
 	"commentStamp" : "JulienDelplanque 6/15/2016 16:17",
@@ -18,4 +19,5 @@
 	"pools" : [
 		 ],
 	"super" : "Morph",
+	"traitcomposition" : "WPModelListener",
 	"type" : "normal" }

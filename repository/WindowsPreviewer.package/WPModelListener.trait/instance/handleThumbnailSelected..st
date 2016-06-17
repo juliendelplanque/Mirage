@@ -1,0 +1,3 @@
+announcement handling
+handleThumbnailSelected: aWPThumbnailSelected
+	^ self subclassResponsibility
