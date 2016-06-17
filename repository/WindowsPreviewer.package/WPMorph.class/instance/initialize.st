@@ -4,7 +4,7 @@ initialize
 	self
 		wpModel: WPModel new;
 		color: Color transparent;
-		listenToWPModelAnnouncements: self wpModel;
+		listenToWPModelAnnouncementsOf: self wpModel;
 		listenToFocusLoss;
 		initializeThumbnails;
 		initializeTitleMorph;
