@@ -1,4 +1,4 @@
 actions
-openCurrent
+openCurrentWindow
 	self currentWindow taskbarButtonClicked.
 	self announceCloseRequest
