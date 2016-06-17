@@ -7,14 +7,10 @@
 		 ],
 	"commentStamp" : "JulienDelplanque 6/15/2016 16:17",
 	"instvars" : [
-		"wpModel",
-		"thumbnails",
 		"thumbnailsSelectedBorderColor",
 		"thumbnailsBorderColor",
 		"thumbnailsBorderWidth",
-		"titleMorph",
-		"currentThumbnail",
-		"highlighter" ],
+		"titleMorph" ],
 	"name" : "WPMorph",
 	"pools" : [
 		 ],

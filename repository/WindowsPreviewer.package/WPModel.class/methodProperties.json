@@ -1,6 +1,12 @@
 {
 	"class" : {
-		 },
+		"createGlobalKMCategory" : "JulienDelplanque 6/17/2016 12:11",
+		"createOpenShortcut" : "JulienDelplanque 6/17/2016 12:11",
+		"globalKMCategory" : "JulienDelplanque 6/17/2016 12:11",
+		"globalKMCategoryName" : "JulienDelplanque 6/17/2016 12:11",
+		"open" : "JulienDelplanque 6/17/2016 17:20",
+		"removeShortcuts" : "JulienDelplanque 6/17/2016 16:55",
+		"views" : "JulienDelplanque 6/17/2016 17:20" },
 	"instance" : {
 		"announce:" : "JulienDelplanque 6/16/2016 16:44",
 		"announceCloseRequest" : "JulienDelplanque 6/17/2016 11:52",
@@ -9,11 +15,11 @@
 		"announcer" : "JulienDelplanque 6/16/2016 16:44",
 		"close" : "JulienDelplanque 6/16/2016 19:45",
 		"currentWindow" : "JulienDelplanque 6/16/2016 21:26",
-		"initialize" : "JulienDelplanque 6/16/2016 17:26",
+		"initialize" : "JulienDelplanque 6/17/2016 16:56",
 		"next" : "JulienDelplanque 6/16/2016 21:48",
 		"nextIndex" : "JulienDelplanque 6/16/2016 21:48",
 		"nextWindow" : "JulienDelplanque 6/16/2016 21:49",
-		"open" : "JulienDelplanque 6/17/2016 11:52",
+		"open" : "JulienDelplanque 6/17/2016 17:12",
 		"openCurrentWindow" : "JulienDelplanque 6/17/2016 11:55",
 		"previous" : "JulienDelplanque 6/16/2016 21:47",
 		"previousIndex" : "JulienDelplanque 6/16/2016 21:47",

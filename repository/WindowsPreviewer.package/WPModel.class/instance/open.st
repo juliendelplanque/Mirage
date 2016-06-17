@@ -1,3 +1,4 @@
 actions
 open
-	self announceOpenRequest
+	self announceOpenRequest.
+	self announceThumbnailSelected: currentIndex

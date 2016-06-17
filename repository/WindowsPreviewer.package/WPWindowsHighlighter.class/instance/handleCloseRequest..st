@@ -1,3 +1,4 @@
 announcement handling
 handleCloseRequest: aWPCloseRequest
-	World removeMorph: highlightMorph
+	World removeMorph: highlightMorph.
+	aWPCloseRequest model announcer unsubscribe: self

@@ -1,9 +1,11 @@
 initialization
 initialize
 	super initialize.
+	self highlightColor: Color orange.
+	self highlightWidth: 3.
 	highlightMorph := BorderedMorph new.
-	highlightMorph announcer when: MorphGotFocus do: [ self wpModel close ].
 	highlightMorph
 		color: Color transparent;
-		beSticky;
-		openInWorld
+		borderColor: self highlightColor;
+		borderWidth: self highlightWidth;
+		beSticky
