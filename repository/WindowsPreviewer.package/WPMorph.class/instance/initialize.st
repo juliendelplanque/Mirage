@@ -8,6 +8,7 @@ initialize
 		listenToFocusLoss;
 		initializeThumbnails;
 		initializeTitleMorph;
+		initializeHighlighter;
 		createShortcuts;
 		beSticky.
 	

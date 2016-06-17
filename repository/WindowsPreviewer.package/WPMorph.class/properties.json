@@ -12,7 +12,8 @@
 		"thumbnailsBorderColor",
 		"thumbnailsBorderWidth",
 		"titleMorph",
-		"currentThumbnail" ],
+		"currentThumbnail",
+		"highlighter" ],
 	"name" : "WPMorph",
 	"pools" : [
 		 ],

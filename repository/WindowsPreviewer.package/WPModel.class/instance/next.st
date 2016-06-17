@@ -1,6 +1,4 @@
 actions
 next
-	currentIndex := currentIndex = self windowsManaged size
-							ifTrue: [ 1 ]
-							ifFalse: [ currentIndex + 1 ].
+	currentIndex := self nextIndex.
 	self announceThumbnailSelected: currentIndex
