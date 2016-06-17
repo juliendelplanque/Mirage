@@ -6,4 +6,4 @@ handleThumbnailSelected: aWPThumbnailSelected
 	aWPThumbnailSelected thumbnail
 		borderColor: self thumbnailsSelectedBorderColor.
 	
-	titleMorph title: aWPThumbnailSelected window label contents.
+	titleMorph title: aWPThumbnailSelected window label contents

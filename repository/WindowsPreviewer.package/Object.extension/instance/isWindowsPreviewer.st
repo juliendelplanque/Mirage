@@ -1,0 +1,3 @@
+*WindowsPreviewer
+isWindowsPreviewer
+	^ false

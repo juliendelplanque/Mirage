@@ -1,3 +1,6 @@
 announcement handling
 handleOpenRequest: aWPOpenRequest
-	highlightMorph openInWorld
+	World submorphs
+		detect: #isWindowsPreviewer
+		ifFound: [ :windowsPreviewer | World addMorph: highlightMorph after: windowsPreviewer ]
+		ifNone: [ highlightMorph openInWorld ]
