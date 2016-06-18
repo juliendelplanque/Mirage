@@ -1,6 +1,6 @@
-initialization
-initializeThumbnailsBorderOn: aWPOpenRequest
-	aWPOpenRequest thumbnails
+thumbnails
+resetThumbnailsBordersOn: aWPModelAnnouncement
+	aWPModelAnnouncement thumbnails
 		do: [ :m | 
 			m
 				borderWidth: self thumbnailsBorderWidth;
