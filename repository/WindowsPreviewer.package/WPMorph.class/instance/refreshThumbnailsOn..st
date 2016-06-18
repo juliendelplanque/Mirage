@@ -1,5 +1,7 @@
-initialization
-initializeThumbnailsOn: aWPOpenRequest
+thumbnails
+refreshThumbnailsOn: aWPOpenRequest
+	self removeAllMorphsIn: (self submorphsSatisfying: [ :m | m class ~= WPTitleMorph ]).
+	
 	aWPOpenRequest thumbnails
 		do: [ :m | 
 			m
@@ -7,7 +9,7 @@ initializeThumbnailsOn: aWPOpenRequest
 				borderColor: self thumbnailsBorderColor ].
 	self
 		extent:
-			(aWPOpenRequest thumbnails collect: [ :t | t width ]) sum @ (aWPOpenRequest thumbnails detectMax: #height) height.
+			(aWPOpenRequest thumbnails collect: #width) sum @ (aWPOpenRequest thumbnails detectMax: #height) height.
 	self
 		addAllMorphs: aWPOpenRequest thumbnails;
 		positionThumbnails: aWPOpenRequest thumbnails

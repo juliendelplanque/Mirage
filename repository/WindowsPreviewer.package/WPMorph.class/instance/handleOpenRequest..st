@@ -1,7 +1,7 @@
 announcement handling
 handleOpenRequest: aWPOpenRequest
 	self
-		initializeThumbnailsOn: aWPOpenRequest;
+		refreshThumbnailsOn: aWPOpenRequest;
 		initializeTitleMorph;
 		createShortcutsOn: aWPOpenRequest;
 		listenToFocusLossOn: aWPOpenRequest;
