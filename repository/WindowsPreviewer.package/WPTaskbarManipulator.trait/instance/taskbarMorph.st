@@ -1,3 +1,3 @@
-windows manipulation
+taskbar
 taskbarMorph
 	^ self taskbarMorphIn: World
