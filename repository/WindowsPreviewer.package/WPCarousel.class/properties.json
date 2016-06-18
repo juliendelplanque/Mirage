@@ -10,8 +10,9 @@
 		"thumbnailsSelectedBorderColor",
 		"thumbnailsBorderColor",
 		"thumbnailsBorderWidth",
-		"titleMorph" ],
-	"name" : "WPMorph",
+		"titleMorph",
+		"spaceBetweenThumbnails" ],
+	"name" : "WPCarousel",
 	"pools" : [
 		 ],
 	"super" : "Morph",

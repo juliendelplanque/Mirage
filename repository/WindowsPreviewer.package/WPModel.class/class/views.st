@@ -1,3 +1,3 @@
 accessing
 views
-	^ { WPMorph . WPWindowsHighlighter }
+	^ { WPCarousel ". WPWindowsHighlighter" }

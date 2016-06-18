@@ -6,4 +6,5 @@ initialize
 		thumbnailsBorderColor: Color black;
 		thumbnailsSelectedBorderColor: Color orange;
 		thumbnailsBorderWidth: 3;
+		spaceBetweenThumbnails: 10;
 		beSticky
