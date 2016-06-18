@@ -1,0 +1,3 @@
+*WindowsPreviewer
+wpThumbnailsBorderColor
+	^ Color black
