@@ -1,0 +1,14 @@
+{
+	"category" : "WindowsPreviewer-Settings",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "JulienDelplanque 6/19/2016 17:57",
+	"instvars" : [
+		 ],
+	"name" : "WPSettings",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
