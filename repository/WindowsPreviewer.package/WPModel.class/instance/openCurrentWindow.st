@@ -1,4 +1,4 @@
 actions
 openCurrentWindow
-	self currentWindow taskbarButtonClicked.
+	self currentWindow wpOpen.
 	self announceCloseRequest
