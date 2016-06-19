@@ -1,0 +1,3 @@
+installation
+uninstall
+	self removeShortcuts
