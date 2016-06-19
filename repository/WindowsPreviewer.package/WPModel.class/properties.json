@@ -14,5 +14,5 @@
 	"pools" : [
 		 ],
 	"super" : "Object",
-	"traitcomposition" : "WPWindowManipulator",
+	"traitcomposition" : "WPWindowManipulator - {#windowsOrderedByTaskbarIn:}",
 	"type" : "normal" }
