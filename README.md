@@ -19,3 +19,7 @@ Metacello new
     baseline: 'WindowsPreviewer';
     load
 ~~~
+
+# Setup
+Go to the 'Settings browser' and check the 'Activate' button in 'Windows Previewer' group.
+![Settings browser](https://raw.githubusercontent.com/juliendelplanque/WindowsPreviewer/dev/misc/img/settings.png)
