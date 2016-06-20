@@ -1,0 +1,14 @@
+{
+	"category" : "WindowsPreviewer",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "ManifestWindowsPreviewer",
+	"pools" : [
+		 ],
+	"super" : "PackageManifest",
+	"type" : "normal" }
