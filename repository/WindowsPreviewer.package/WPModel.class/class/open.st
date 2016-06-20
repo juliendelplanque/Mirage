@@ -5,5 +5,6 @@ open
 	(self views collect: #new)
 		do: [ :view | view listenToWPModelAnnouncementsOf: instance ].
 	^ instance
+		useWindowsOrderedByTaskbar;
 		open;
 		yourself

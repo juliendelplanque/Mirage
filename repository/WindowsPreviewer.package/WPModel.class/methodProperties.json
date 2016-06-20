@@ -7,7 +7,7 @@
 		"install" : "JulienDelplanque 6/19/2016 11:30",
 		"install:" : "JulienDelplanque 6/19/2016 11:46",
 		"isInstalled" : "JulienDelplanque 6/19/2016 17:54",
-		"open" : "JulienDelplanque 6/17/2016 17:20",
+		"open" : "JulienDelplanque 6/20/2016 22:27",
 		"removeShortcuts" : "JulienDelplanque 6/17/2016 16:55",
 		"uninstall" : "JulienDelplanque 6/19/2016 11:33",
 		"views" : "JulienDelplanque 6/19/2016 18:36" },
@@ -18,8 +18,8 @@
 		"announceThumbnailSelected:" : "JulienDelplanque 6/19/2016 18:06",
 		"announcer" : "JulienDelplanque 6/16/2016 16:44",
 		"close" : "JulienDelplanque 6/16/2016 19:45",
+		"currentIndex" : "JulienDelplanque 6/20/2016 22:32",
 		"currentWindow" : "JulienDelplanque 6/16/2016 21:26",
-		"initialize" : "JulienDelplanque 6/17/2016 16:56",
 		"next" : "JulienDelplanque 6/16/2016 21:48",
 		"nextIndex" : "JulienDelplanque 6/16/2016 21:48",
 		"nextWindow" : "JulienDelplanque 6/16/2016 21:49",
@@ -28,4 +28,6 @@
 		"previous" : "JulienDelplanque 6/16/2016 21:47",
 		"previousIndex" : "JulienDelplanque 6/16/2016 21:47",
 		"previousWindow" : "JulienDelplanque 6/16/2016 21:48",
-		"windowsManaged" : "JulienDelplanque 6/16/2016 17:18" } }
+		"useWindowsOrderedByTaskbar" : "JulienDelplanque 6/20/2016 22:26",
+		"windowsManaged" : "JulienDelplanque 6/16/2016 17:18",
+		"windowsManaged:" : "JulienDelplanque 6/20/2016 22:31" } }
