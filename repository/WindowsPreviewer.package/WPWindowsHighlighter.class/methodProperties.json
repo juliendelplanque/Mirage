@@ -4,10 +4,10 @@
 	"instance" : {
 		"handleCloseRequest:" : "JulienDelplanque 6/17/2016 17:03",
 		"handleOpenRequest:" : "JulienDelplanque 6/17/2016 17:57",
-		"handleThumbnailSelected:" : "JulienDelplanque 6/17/2016 17:43",
+		"handleWindowSelected:" : "JulienDelplanque 6/21/2016 19:02",
 		"highlightColor" : "JulienDelplanque 6/16/2016 22:12",
 		"highlightColor:" : "JulienDelplanque 6/16/2016 22:12",
 		"highlightWidth" : "JulienDelplanque 6/16/2016 22:14",
 		"highlightWidth:" : "JulienDelplanque 6/16/2016 22:14",
 		"initialize" : "JulienDelplanque 6/18/2016 20:38",
-		"listenToWPModelAnnouncementsOf:" : "JulienDelplanque 6/21/2016 16:34" } }
+		"listenToWPModelAnnouncementsOf:" : "JulienDelplanque 6/21/2016 19:02" } }

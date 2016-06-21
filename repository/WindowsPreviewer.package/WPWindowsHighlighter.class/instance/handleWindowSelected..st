@@ -1,5 +1,5 @@
 announcement handling
-handleThumbnailSelected: aWPThumbnailSelected
+handleWindowSelected: aWPThumbnailSelected
 	
 	highlightMorph
 		position: aWPThumbnailSelected window position; 

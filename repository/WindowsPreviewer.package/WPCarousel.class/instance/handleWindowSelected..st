@@ -1,5 +1,5 @@
 announcement handling
-handleThumbnailSelected: aWPThumbnailSelected
+handleWindowSelected: aWPThumbnailSelected
 
 	self
 		refreshThumbnailsOn: aWPThumbnailSelected;
