@@ -3,7 +3,7 @@ testNext
 	| blockExecuted |
 	blockExecuted := false.
 	model announcer
-		when: WPThumbnailSelected do: [ blockExecuted := true ].
+		when: WPWindowSelected do: [ blockExecuted := true ].
 	self
 		assert: model windowsManaged size equals: 3;
 		assert: model currentIndex equals: 1.
