@@ -3,7 +3,7 @@ handleOpenRequest: aWPOpenRequest
 	self
 		refreshThumbnailsOn: aWPOpenRequest;
 		initializeTitleMorph;
-		createShortcutsOn: aWPOpenRequest;
+		createShortcutsOn: aWPOpenRequest model;
 		listenToFocusLossOn: aWPOpenRequest;
 		openCenteredInWorld;
 		takeKeyboardFocus
