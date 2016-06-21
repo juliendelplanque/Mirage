@@ -6,4 +6,5 @@ baseline: spec
 		do: [ 
 			spec
 				package: 'WindowsPreviewer';
-				package: 'WindowsPreviewer-Tests' with: [ spec requires: 'WindowsPreviewer' ] ]
+				package: 'WindowsPreviewer-Tests' with: [ spec requires: 'WindowsPreviewer' ];
+				package: 'WindowsPreviewer-Highlighter' with: [ spec requires: 'WindowsPreviewer' ] ]
