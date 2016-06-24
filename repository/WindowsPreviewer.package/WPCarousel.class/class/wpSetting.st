@@ -1,0 +1,4 @@
+settings
+wpSetting
+	<wpView>
+	<wpPreviewer>
