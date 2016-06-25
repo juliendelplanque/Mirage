@@ -1,1 +1,0 @@
-I announce the fact that the #windowClosed has been closed.
