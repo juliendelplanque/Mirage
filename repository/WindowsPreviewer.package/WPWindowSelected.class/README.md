@@ -1,1 +1,1 @@
-I announce the fact that the thumbnail at index #index has been selected.
+I announce the fact that the #currentWindow has been selected.

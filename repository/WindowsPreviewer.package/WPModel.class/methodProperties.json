@@ -10,16 +10,19 @@
 		"open" : "JulienDelplanque 6/20/2016 22:27",
 		"removeShortcuts" : "JulienDelplanque 6/17/2016 16:55",
 		"uninstall" : "JulienDelplanque 6/19/2016 11:33",
-		"views" : "JulienDelplanque 6/19/2016 18:36" },
+		"views" : "JulienDelplanque 6/25/2016 17:29" },
 	"instance" : {
 		"announce:" : "JulienDelplanque 6/16/2016 16:44",
 		"announceCloseRequest" : "JulienDelplanque 6/17/2016 11:52",
 		"announceOpenRequest" : "JulienDelplanque 6/17/2016 11:52",
+		"announceWindowClosed:" : "JulienDelplanque 6/24/2016 17:35",
 		"announceWindowSelected" : "JulienDelplanque 6/21/2016 16:35",
 		"announcer" : "JulienDelplanque 6/16/2016 16:44",
 		"close" : "JulienDelplanque 6/16/2016 19:45",
+		"closeCurrentWindow" : "JulienDelplanque 6/25/2016 17:41",
 		"currentIndex" : "JulienDelplanque 6/20/2016 22:32",
 		"currentWindow" : "JulienDelplanque 6/16/2016 21:26",
+		"initialize" : "JulienDelplanque 6/25/2016 17:40",
 		"next" : "JulienDelplanque 6/21/2016 16:35",
 		"nextIndex" : "JulienDelplanque 6/24/2016 17:03",
 		"nextWindow" : "JulienDelplanque 6/16/2016 21:49",
@@ -30,4 +33,4 @@
 		"previousWindow" : "JulienDelplanque 6/16/2016 21:48",
 		"useWindowsOrderedByTaskbar" : "JulienDelplanque 6/20/2016 22:26",
 		"windowsManaged" : "JulienDelplanque 6/16/2016 17:18",
-		"windowsManaged:" : "JulienDelplanque 6/24/2016 17:11" } }
+		"windowsManaged:" : "JulienDelplanque 6/25/2016 17:39" } }

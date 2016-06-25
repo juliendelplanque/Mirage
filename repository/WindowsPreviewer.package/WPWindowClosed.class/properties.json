@@ -4,10 +4,10 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "JulienDelplanque 6/24/2016 17:31",
+	"commentStamp" : "JulienDelplanque 6/24/2016 17:32",
 	"instvars" : [
-		 ],
-	"name" : "WPWindowSelected",
+		"windowClosed" ],
+	"name" : "WPWindowClosed",
 	"pools" : [
 		 ],
 	"super" : "WPModelAnnouncement",

@@ -1,3 +1,3 @@
 announcement handling
-handleOpenRequest: aWPOpenRequest
+handleWindowClosed: aWPWindowClosed
 	^ self explicitRequirement

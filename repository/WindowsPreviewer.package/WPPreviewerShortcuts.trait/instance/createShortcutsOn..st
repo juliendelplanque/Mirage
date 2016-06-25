@@ -6,4 +6,5 @@ createShortcutsOn: aWPModel
 		on: KMUntypeableSingleKeyCombination tab do: [ aWPModel next ];
 		on: KMUntypeableSingleKeyCombination arrowRight do: [ aWPModel next ];
 		on: KMModifier shift + KMUntypeableSingleKeyCombination tab do: [ aWPModel previous ];
-		on: KMUntypeableSingleKeyCombination arrowLeft do: [ aWPModel previous ]
+		on: KMUntypeableSingleKeyCombination arrowLeft do: [ aWPModel previous ];
+		on: $w asKeyCombination do: [ aWPModel closeCurrentWindow ]

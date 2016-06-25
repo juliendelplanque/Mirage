@@ -1,3 +1,3 @@
 announcement handling
 handleWindowSelected: aWPThumbnailSelected
-	^ self subclassResponsibility
+	^ self explicitRequirement
