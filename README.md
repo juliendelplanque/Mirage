@@ -31,5 +31,5 @@ You can now use left/right arrow to choose a window and hit the space key to ope
 | Key             | Purpose                                              |
 |:----------------|:-----------------------------------------------------|
 | Ctrl+Tab        | Open the previewer                                   |
-| left arrow      | Select window on the left of the current window      |
-| right arrow/Tab | Select the window on the right of the current window |
+| Left arrow      | Select window on the left of the current window      |
+| Right arrow/Tab | Select the window on the right of the current window |
