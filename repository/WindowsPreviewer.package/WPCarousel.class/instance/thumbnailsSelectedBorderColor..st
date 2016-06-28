@@ -1,0 +1,3 @@
+accessing
+thumbnailsSelectedBorderColor: anObject
+	thumbnailsSelectedBorderColor := anObject

@@ -1,0 +1,18 @@
+{
+	"category" : "WindowsPreviewer-Highlighter",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "WPModelListener classTrait",
+	"classvars" : [
+		 ],
+	"commentStamp" : "JulienDelplanque 6/16/2016 21:38",
+	"instvars" : [
+		"highlightColor",
+		"highlightWidth",
+		"highlightMorph" ],
+	"name" : "WPWindowsHighlighter",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"traitcomposition" : "WPModelListener",
+	"type" : "normal" }

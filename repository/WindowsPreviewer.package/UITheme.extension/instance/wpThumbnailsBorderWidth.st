@@ -1,0 +1,3 @@
+*WindowsPreviewer
+wpThumbnailsBorderWidth
+	^ 3

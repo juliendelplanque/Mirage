@@ -1,0 +1,3 @@
+*WindowsPreviewer
+wpHighlighterBorderColor
+	^ self wpThumbnailsSelectedBorderColor

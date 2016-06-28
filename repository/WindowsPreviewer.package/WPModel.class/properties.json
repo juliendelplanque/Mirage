@@ -1,0 +1,18 @@
+{
+	"category" : "WindowsPreviewer-Model",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "WPWindowManipulator classTrait",
+	"classvars" : [
+		 ],
+	"commentStamp" : "JulienDelplanque 6/16/2016 18:39",
+	"instvars" : [
+		"announcer",
+		"windowsManaged",
+		"currentIndex" ],
+	"name" : "WPModel",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"traitcomposition" : "WPWindowManipulator",
+	"type" : "normal" }

@@ -1,0 +1,14 @@
+{
+	"category" : "WindowsPreviewer-Announcements",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "JulienDelplanque 6/17/2016 07:11",
+	"instvars" : [
+		"model" ],
+	"name" : "WPModelAnnouncement",
+	"pools" : [
+		 ],
+	"super" : "Announcement",
+	"type" : "normal" }

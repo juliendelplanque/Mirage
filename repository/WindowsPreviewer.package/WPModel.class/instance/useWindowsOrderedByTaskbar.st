@@ -1,0 +1,3 @@
+settings
+useWindowsOrderedByTaskbar
+	self windowsManaged: self windowsOrderedByTaskbar

@@ -1,0 +1,3 @@
+*WindowsPreviewer
+wpClose
+	^ self close

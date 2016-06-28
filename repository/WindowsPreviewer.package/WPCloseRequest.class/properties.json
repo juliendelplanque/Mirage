@@ -1,0 +1,14 @@
+{
+	"category" : "WindowsPreviewer-Announcements",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "JulienDelplanque 6/16/2016 17:00",
+	"instvars" : [
+		 ],
+	"name" : "WPCloseRequest",
+	"pools" : [
+		 ],
+	"super" : "WPModelAnnouncement",
+	"type" : "normal" }

@@ -1,0 +1,3 @@
+*WindowsPreviewer
+wpSpaceBetweenThumbnails
+	^ 10

@@ -1,0 +1,3 @@
+announcement handling
+handleWindowSelected: aWPThumbnailSelected
+	^ self explicitRequirement
