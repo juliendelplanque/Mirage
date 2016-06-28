@@ -1,6 +1,9 @@
 {
 	"class" : {
-		 },
+		"activate:" : "JulienDelplanque 6/28/2016 15:13",
+		"initialize" : "JulienDelplanque 6/28/2016 15:14",
+		"isActivated" : "JulienDelplanque 6/28/2016 15:52",
+		"wpSettingOn:" : "JulienDelplanque 6/28/2016 15:13" },
 	"instance" : {
 		"handleCloseRequest:" : "JulienDelplanque 6/17/2016 17:03",
 		"handleOpenRequest:" : "JulienDelplanque 6/17/2016 17:57",
