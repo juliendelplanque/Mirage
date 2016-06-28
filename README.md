@@ -23,3 +23,13 @@ Metacello new
 # Setup
 Go to the 'Settings browser' and check the 'Activate' button in 'Windows Previewer' group.
 ![Settings browser](https://raw.githubusercontent.com/juliendelplanque/WindowsPreviewer/dev/misc/img/settings.png)
+
+# How to use
+Once you activated the 'Windows Previewer' in the 'Settings browser' hit 'Ctrl+Tab' to open the previewer.
+You can now use left/right arrow to choose a window and hit the space key to open it.
+
+| Key             | Purpose                                              |
+|:----------------|:-----------------------------------------------------|
+| Ctrl+Tab        | Open the previewer                                   |
+| left arrow      | Select window on the left of the current window      |
+| right arrow/Tab | Select the window on the right of the current window |
