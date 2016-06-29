@@ -3,5 +3,5 @@ createOpenShortcut
 	self globalKMCategory
 		addKeymapEntry: (KMKeymap
 								named: #'Open windows previews'
-								shortcut: KMModifier ctrl + KMUntypeableSingleKeyCombination tab"KMModifier shift + Character space asKeyCombination"
+								shortcut: Smalltalk os wpOpenPreviewerShortcut
 								action: [ self open ]).
