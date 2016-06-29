@@ -4,7 +4,5 @@ wpViewsSettingsOn: aBuilder
 	
 	(aBuilder group: #wpViewsSettings)
 		label: 'Views to use' translated;
-		parent: #windowsPreviewerSettings.
-		
-	SystemNavigation default allImplementorsOf: #wpSetting
+		parent: #windowsPreviewerSettings
 	

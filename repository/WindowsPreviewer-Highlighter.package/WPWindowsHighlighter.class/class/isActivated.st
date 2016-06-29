@@ -1,0 +1,4 @@
+accessing
+isActivated
+	<wpView>
+	^ isActivated
