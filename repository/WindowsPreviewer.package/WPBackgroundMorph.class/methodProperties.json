@@ -1,0 +1,10 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"handleCloseRequest:" : "JulienDelplanque 6/30/2016 10:14",
+		"handleOpenRequest:" : "JulienDelplanque 6/30/2016 10:37",
+		"handleWindowSelected:" : "JulienDelplanque 6/30/2016 10:03",
+		"initialize" : "JulienDelplanque 6/30/2016 10:39",
+		"listenToFocusLossOn:" : "JulienDelplanque 6/30/2016 10:37",
+		"wantsToBeTopmost" : "JulienDelplanque 6/30/2016 10:05" } }

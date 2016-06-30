@@ -1,0 +1,16 @@
+{
+	"category" : "WindowsPreviewer-Morphic",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "WPModelListener classTrait + WPPreviewerShortcuts classTrait",
+	"classvars" : [
+		 ],
+	"commentStamp" : "JulienDelplanque 6/30/2016 10:00",
+	"instvars" : [
+		 ],
+	"name" : "WPBackgroundMorph",
+	"pools" : [
+		 ],
+	"super" : "Morph",
+	"traitcomposition" : "WPModelListener + WPPreviewerShortcuts",
+	"type" : "normal" }
