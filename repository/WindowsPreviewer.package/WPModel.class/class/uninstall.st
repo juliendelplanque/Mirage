@@ -1,3 +1,5 @@
 installation
 uninstall
-	self removeShortcuts
+	self
+		removeShortcuts;
+		updateSettingBrowsers
