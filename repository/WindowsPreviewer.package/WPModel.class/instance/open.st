@@ -1,4 +1,6 @@
 actions
 open
-	self announceOpenRequest.
-	self announceWindowSelected
+	self manageAtLeastOneWindow
+		ifTrue: [
+			self announceOpenRequest.
+			self announceWindowSelected ]
