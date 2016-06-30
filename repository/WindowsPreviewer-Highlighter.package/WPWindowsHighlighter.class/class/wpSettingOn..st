@@ -1,10 +1,6 @@
 settings
 wpSettingOn: aBuilder
 	<systemsettings>
-	(aBuilder setting: #wpWindowsHighlighterSetting)
+	(self buildSettingNamed: #wpWindowsHighlighterSetting with: aBuilder)
 		label: 'Windows highlighter';
-		description: 'Activate the windows highlighter' translated;
-		setSelector: #activate:;
-		getSelector: #isActivated;
-		target: self;
-		parent: #wpViewsSettings.
+		description: 'Activate the windows highlighter' translated
