@@ -1,8 +1,6 @@
 announcement handling
 handleOpenRequest: aWPOpenRequest
-	aWPOpenRequest model hasViewListeningToUserInput
-		ifFalse: [ ^ self ].
-	World submorphs
+	aWPOpenRequest background submorphs
 		detect: #isWindowsPreviewer
-		ifFound: [ :windowsPreviewer | World addMorph: highlightMorph after: windowsPreviewer ]
-		ifNone: [ highlightMorph openInWorld ]
+		ifFound: [ :windowsPreviewer | aWPOpenRequest background addMorph: highlightMorph after: windowsPreviewer ]
+		ifNone: [ aWPOpenRequest background addMorph: highlightMorph ]

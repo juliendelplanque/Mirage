@@ -7,5 +7,4 @@ initialize
 	highlightMorph
 		color: Color transparent;
 		borderColor: self highlightColor;
-		borderWidth: self highlightWidth;
-		beSticky
+		borderWidth: self highlightWidth
