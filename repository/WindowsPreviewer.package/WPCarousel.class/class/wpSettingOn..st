@@ -1,10 +1,6 @@
 settings
 wpSettingOn: aBuilder
 	<systemsettings>
-	(aBuilder setting: #wpCarouselSetting)
+	(self buildSettingNamed: #wpCarouselSetting with: aBuilder)
 		label: 'Carousel';
-		description: 'Activate the Carousel view' translated;
-		setSelector: #activate:;
-		getSelector: #isActivated;
-		target: self;
-		parent: #wpViewsSettings.
+		description: 'Activate the Carousel view' translated

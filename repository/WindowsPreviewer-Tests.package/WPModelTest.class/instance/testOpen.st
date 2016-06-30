@@ -7,4 +7,6 @@ testOpen
 	model open.
 	self
 		assert: blockExecuted1;
-		assert: blockExecuted2 
+		assert: blockExecuted2.
+	"Delete the background from world."
+	model background delete

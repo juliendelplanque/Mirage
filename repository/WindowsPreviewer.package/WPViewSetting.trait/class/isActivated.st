@@ -1,0 +1,3 @@
+accessing
+isActivated
+	self explicitRequirement

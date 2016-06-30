@@ -9,7 +9,8 @@
 	"instvars" : [
 		"announcer",
 		"windowsManaged",
-		"currentIndex" ],
+		"currentIndex",
+		"background" ],
 	"name" : "WPModel",
 	"pools" : [
 		 ],

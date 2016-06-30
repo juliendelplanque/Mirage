@@ -2,7 +2,7 @@
 	"category" : "WindowsPreviewer-Highlighter",
 	"classinstvars" : [
 		"isActivated" ],
-	"classtraitcomposition" : "WPModelListener classTrait",
+	"classtraitcomposition" : "WPModelListener classTrait + WPViewSetting classTrait",
 	"classvars" : [
 		 ],
 	"commentStamp" : "JulienDelplanque 6/16/2016 21:38",
@@ -14,5 +14,5 @@
 	"pools" : [
 		 ],
 	"super" : "Object",
-	"traitcomposition" : "WPModelListener",
+	"traitcomposition" : "WPModelListener + WPViewSetting",
 	"type" : "normal" }

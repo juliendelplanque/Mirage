@@ -6,5 +6,4 @@ initialize
 		thumbnailsBorderColor: Smalltalk ui theme wpThumbnailsBorderColor;
 		thumbnailsSelectedBorderColor: Smalltalk ui theme wpThumbnailsSelectedBorderColor;
 		thumbnailsBorderWidth: Smalltalk ui theme wpThumbnailsBorderWidth;
-		spaceBetweenThumbnails: Smalltalk ui theme wpSpaceBetweenThumbnails;
-		beSticky
+		spaceBetweenThumbnails: Smalltalk ui theme wpSpaceBetweenThumbnails
