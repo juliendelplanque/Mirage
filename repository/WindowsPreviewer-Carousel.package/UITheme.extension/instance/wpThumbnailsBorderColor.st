@@ -1,3 +1,3 @@
 *WindowsPreviewer-Carousel
 wpThumbnailsBorderColor
-	^ Color black
+	^ Color gray

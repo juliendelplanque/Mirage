@@ -1,3 +1,3 @@
 *WindowsPreviewer-Highlighter
 wpHighlighterBorderColor
-	^ Color lightBlue
+	^ Color fromString: '#3297d4'
