@@ -2,4 +2,5 @@ installation
 install
 	self
 		createGlobalKMCategory;
-		createOpenShortcut
+		createOpenShortcut;
+		updateSettingBrowsers

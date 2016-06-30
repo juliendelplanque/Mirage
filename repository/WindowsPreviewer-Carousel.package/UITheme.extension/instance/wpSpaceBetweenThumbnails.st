@@ -1,3 +1,3 @@
-*WindowsPreviewer
+*WindowsPreviewer-Carousel
 wpSpaceBetweenThumbnails
 	^ 10

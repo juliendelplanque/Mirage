@@ -7,4 +7,5 @@ baseline: spec
 			spec
 				package: 'WindowsPreviewer';
 				package: 'WindowsPreviewer-Tests' with: [ spec requires: 'WindowsPreviewer' ];
+				package: 'WindowsPreviewer-Carousel' with: [ spec requires: 'WindowsPreviewer' ];
 				package: 'WindowsPreviewer-Highlighter' with: [ spec requires: 'WindowsPreviewer' ] ]

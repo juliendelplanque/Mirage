@@ -1,3 +1,0 @@
-*WindowsPreviewer
-wpColor
-	^ Color transparent
