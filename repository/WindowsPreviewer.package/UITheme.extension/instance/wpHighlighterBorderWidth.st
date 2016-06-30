@@ -1,3 +1,0 @@
-*WindowsPreviewer
-wpHighlighterBorderWidth
-	^ self wpThumbnailsBorderWidth

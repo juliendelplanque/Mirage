@@ -2,11 +2,4 @@
 	"class" : {
 		 },
 	"instance" : {
-		"wpBackgroundColor" : "JulienDelplanque 6/30/2016 10:38",
-		"wpColor" : "JulienDelplanque 6/18/2016 20:33",
-		"wpHighlighterBorderColor" : "JulienDelplanque 6/18/2016 20:39",
-		"wpHighlighterBorderWidth" : "JulienDelplanque 6/18/2016 20:37",
-		"wpSpaceBetweenThumbnails" : "JulienDelplanque 6/18/2016 20:34",
-		"wpThumbnailsBorderColor" : "JulienDelplanque 6/18/2016 20:34",
-		"wpThumbnailsBorderWidth" : "JulienDelplanque 6/18/2016 20:34",
-		"wpThumbnailsSelectedBorderColor" : "JulienDelplanque 6/18/2016 20:40" } }
+		"wpBackgroundColor" : "JulienDelplanque 6/30/2016 10:38" } }
