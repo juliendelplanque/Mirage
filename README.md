@@ -28,9 +28,9 @@ Go to the 'Settings browser' and check the 'Activate' button in 'Windows Preview
 Once you activated the 'Windows Previewer' in the 'Settings browser' hit 'Ctrl+Tab' to open the previewer.
 You can now use left/right arrow to choose a window and hit the space key to open it.
 
-| Key             | Purpose                                                        |
-|:----------------|:---------------------------------------------------------------|
-| Ctrl+Tab        | Open the previewer                                             |
-| Left arrow      | Select window on the left of the current window                |
-| Right arrow/Tab | Select the window on the right of the current window           |
-| Esc             | Quit the windows previewer without changing the current window |
+| Key                  | Purpose                                                                   |
+|:---------------------|:--------------------------------------------------------------------------|
+| (Ctrl/Cmd/Shift)+Tab | Open the previewer (Ctrl for Linux, Cmd for Mac OS and Shift for Windows. |
+| Left arrow           | Select window on the left of the current window.                          |
+| Right arrow/Tab      | Select the window on the right of the current window.                     |
+| Esc                  | Quit the windows previewer without changing the current window.           |
