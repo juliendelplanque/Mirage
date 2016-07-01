@@ -1,3 +1,3 @@
 *WindowsPreviewer
 wpOpenPreviewerShortcut
-	^ KMModifier cmd + KMUntypeableSingleKeyCombination tab
+	^ KMModifier shift + KMUntypeableSingleKeyCombination tab
