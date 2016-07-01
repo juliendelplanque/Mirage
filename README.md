@@ -107,3 +107,57 @@ Object subclass: #WPTaskbarTasksHighlighter
     classVariableNames: ''
     package: 'WindowsPreviewer-Highlighter'
 ~~~
+
+with its #initialize method:
+~~~
+initialize
+    super initialize.
+    buttonHighlighter := WPButtonHighlighterMorph new
+~~~
+
+#### Reacting to announcements
+Now, we define the behavior of the object when the previewer open (it adds the buttonHighlighter as submorph of the background):
+~~~
+handleOpenRequest: aWPOpenRequest
+    aWPOpenRequest background addMorph: buttonHighlighter
+~~~
+
+Then, we define the behavior of the object when the previewer close (it unsubscribes from the WPModel announcements):
+~~~
+handleCloseRequest: aWPCloseRequest
+    aWPCloseRequest model announcer unsubscribe: self
+~~~
+
+And finally, we define the behavior of the object when the selected window of the previewer change (it highlights the taskbar button corresponding):
+~~~
+handleWindowSelected: aWPThumbnailSelected
+    buttonHighlighter
+        highlightButton: (aWPThumbnailSelected window worldTaskbar buttonForMorph: aWPThumbnailSelected window)
+~~~
+
+#### Appearing in the Settings browser
+To do that, we go the class side of WPTaskbarTasksHighlighter and override the following methods:
+
+- #activate: and #isActivated to let know if the view is activated or not.
+~~~
+activate: aBoolean
+    isActivated := aBoolean
+~~~
+
+~~~
+isActivated
+    ^ isActivated
+~~~
+
+- #wpSettingOn: To actually buid the setting node in the System browser.
+~~~
+wpSettingOn: aBuilder
+    <systemsettings>
+    (self buildSettingNamed: #wpTaskbarTasksHighlighterSetting with: aBuilder)
+        label: 'Taskbar tasks highlighter';
+        description: 'Activate the taskbar tasks highlighter' translated
+~~~
+
+### Finished
+The example is now complete. It is already implemented in the 'WindowsPreviewer-Highlighter' package, have a look!
+
