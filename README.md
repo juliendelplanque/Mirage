@@ -1,6 +1,6 @@
 # WindowsPreviewer
 A windows switcher with a previewer for Pharo.
-![Settings browser](https://raw.githubusercontent.com/juliendelplanque/WindowsPreviewer/dev/misc/gif/demo.gif)
+![Demo](https://raw.githubusercontent.com/juliendelplanque/WindowsPreviewer/dev/misc/gif/demo.gif)
 
 
 # Install
