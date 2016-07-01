@@ -1,3 +1,3 @@
 *WindowsPreviewer-Highlighter
-wpHighlighterBorderColor
+wpTaskbarTasksHighlighterColor
 	^ Color fromString: '#3297d4'

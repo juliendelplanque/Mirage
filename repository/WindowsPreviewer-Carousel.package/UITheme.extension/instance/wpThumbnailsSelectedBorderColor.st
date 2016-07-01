@@ -1,3 +1,3 @@
 *WindowsPreviewer-Carousel
 wpThumbnailsSelectedBorderColor
-	^ Color lightBlue
+	^ Color fromString: '#3297d4'

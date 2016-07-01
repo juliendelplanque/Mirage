@@ -1,9 +1,7 @@
 shortcuts creation
 createShortcutsOn: aWPModel
 	self
-		on: Character space asKeyCombination do: [ aWPModel openCurrentWindow ];
-		on: KMUntypeableSingleKeyCombination escape do: [ aWPModel close ];
-		on: KMUntypeableSingleKeyCombination tab
-				| KMUntypeableSingleKeyCombination arrowRight do: [ aWPModel next ];
-		on: (KMModifier shift + KMUntypeableSingleKeyCombination tab)
-				| KMUntypeableSingleKeyCombination arrowLeft do: [ aWPModel previous ]
+		on: self openWindowShortcut do: [ aWPModel openCurrentWindow ];
+		on: self closeShortcut do: [ aWPModel close ];
+		on: self nextShortcut do: [ aWPModel next ];
+		on: self previousShortcut do: [ aWPModel previous ]

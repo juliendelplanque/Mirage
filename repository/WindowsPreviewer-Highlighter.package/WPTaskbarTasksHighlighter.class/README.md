@@ -1,0 +1,1 @@
+I highlight taskbar tasks selected during the preview.

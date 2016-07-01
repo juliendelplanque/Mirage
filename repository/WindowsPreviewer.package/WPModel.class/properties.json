@@ -1,7 +1,7 @@
 {
 	"category" : "WindowsPreviewer-Model",
 	"classinstvars" : [
-		 ],
+		"windowsOrderingMethod" ],
 	"classtraitcomposition" : "WPWindowManipulator classTrait",
 	"classvars" : [
 		 ],

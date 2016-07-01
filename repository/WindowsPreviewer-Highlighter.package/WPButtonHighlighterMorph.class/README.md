@@ -1,0 +1,1 @@
+I highlight a button of the taskbar.
