@@ -30,9 +30,10 @@ You can now use left/right arrow to choose a window and hit the space key to ope
 
 | Key                  | Purpose                                                                   |
 |:---------------------|:--------------------------------------------------------------------------|
-| (Ctrl/Cmd/Shift)+Tab | Open the previewer (Ctrl for Linux, Cmd for Mac OS and Shift for Windows. |
+| (Ctrl/Shift)+Tab     | Open the previewer (Ctrl for Linux, Shift for Windows and Mac OS.         |
 | Left arrow           | Select window on the left of the current window.                          |
 | Right arrow/Tab      | Select the window on the right of the current window.                     |
+| Space/Enter          | Set the window selected in the previewer on top.                          |
 | Esc                  | Quit the windows previewer without changing the current window.           |
 
 # How to create your own view
