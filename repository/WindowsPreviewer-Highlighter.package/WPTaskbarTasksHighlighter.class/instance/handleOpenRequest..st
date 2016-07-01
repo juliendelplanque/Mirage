@@ -1,0 +1,3 @@
+announcement handling
+handleOpenRequest: aWPOpenRequest
+	aWPOpenRequest background addMorph: buttonHighlighter
