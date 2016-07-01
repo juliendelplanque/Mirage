@@ -22,6 +22,11 @@ Metacello new
 
 # Setup
 Go to the 'Settings browser' and check the 'Activate' button in 'Windows Previewer' group.
+Then, you can choose the view you want to use by checking the buttons corresponding.
+
+- If the default shortcut to open the previewer does not fit with you, you can change it from settings as well.
+- It is also possible to change the order used to display windows in the previewer by selecting one the method in "Windows management" setting.
+
 ![Settings browser](https://raw.githubusercontent.com/juliendelplanque/WindowsPreviewer/dev/misc/img/settings.png)
 
 # How to use
