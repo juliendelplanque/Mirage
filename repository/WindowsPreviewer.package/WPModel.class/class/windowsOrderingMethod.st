@@ -1,4 +1,4 @@
 accessing
 windowsOrderingMethod
-	^ windowsOrderingMethod 
-		ifNil: [ windowsOrderingMethod := WPSettings windowsOrderingChoices sorted first head ]
+	^ windowsOrderingMethod
+		ifNil: [ windowsOrderingMethod := WPSettings windowsOrderingChoices sorted first tail ]
