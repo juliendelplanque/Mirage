@@ -50,9 +50,9 @@ The following list contains the announcements that can be announced by a WPModel
 
 | Announcement      | Purpose                                                    |
 |:------------------|:-----------------------------------------------------------|
-| WPOpenRequest:    | Announced when the previewer is opened.                    |
-| WPWindowSelected: | Announced when the user selected a window in the previewer.|
-| WPCloseRequest:   | Announced when the previewer is closed.                    |
+| WPOpenRequest     | Announced when the previewer is opened.                    |
+| WPWindowSelected  | Announced when the user selected a window in the previewer.|
+| WPCloseRequest    | Announced when the previewer is closed.                    |
 
 Each graphical element must uses WPModelListener trait and override the following methods (defined in the trait):
 
