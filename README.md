@@ -79,7 +79,7 @@ As an example we will explain how WPTaskbarTasksHighlighter is implemented.
 This view highlight the taskbar task's button associated with the window currently selected.
 
 ### WPButtonHighlighterMorph
-First of all we create an object that inherits from morph and have the duty to highlight a button givent as parameter:
+First of all we create an object that inherits from Morph and have the duty to highlight a button given as parameter:
 ~~~
 Morph subclass: #WPButtonHighlighterMorph
     instanceVariableNames: ''
