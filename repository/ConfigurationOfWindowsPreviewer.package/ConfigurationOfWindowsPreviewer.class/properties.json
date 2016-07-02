@@ -1,0 +1,14 @@
+{
+	"category" : "ConfigurationOfWindowsPreviewer",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"LastVersionLoad" ],
+	"commentStamp" : "",
+	"instvars" : [
+		"project" ],
+	"name" : "ConfigurationOfWindowsPreviewer",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
