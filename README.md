@@ -46,5 +46,8 @@ You can now use left/right arrow to choose a window and hit the space key to ope
 # Developers documentation
 The [wiki](https://github.com/juliendelplanque/WindowsPreviewer/wiki) holds all the documentation needed to contribute to the project.
 
+If you want to contribute to this project, please follow the [contribution guidelines](https://github.com/juliendelplanque/WindowsPreviewer/wiki/How-to-contribute).
+
+Here are some useful links:
 - [Creating your own view](https://github.com/juliendelplanque/WindowsPreviewer/wiki/How-to-extend-WP#creating-you-own-view)
 - [Add a windows ordering method](https://github.com/juliendelplanque/WindowsPreviewer/wiki/How-to-extend-WP#add-a-windows-ordering-method)
