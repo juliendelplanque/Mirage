@@ -42,3 +42,8 @@ You can now use left/right arrow to choose a window and hit the space key to ope
 | Right arrow/Tab      | Select the window on the right of the current window.                     |
 | Space/Enter          | Set the window selected in the previewer on top.                          |
 | Esc                  | Quit the windows previewer without changing the current window.           |
+
+# Developers documentation
+The [wiki](https://github.com/juliendelplanque/WindowsPreviewer/wiki) holds all the documentation needed to contribute to the project.
+
+- [Creating your own view](https://github.com/juliendelplanque/WindowsPreviewer/wiki/How-to-extend-WP)
