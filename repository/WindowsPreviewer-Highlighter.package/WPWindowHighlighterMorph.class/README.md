@@ -1,0 +1,1 @@
+I highlight a SystemWindow (or subclass).

@@ -6,11 +6,7 @@
 		"wpSettingOn:" : "JulienDelplanque 6/30/2016 12:48" },
 	"instance" : {
 		"handleCloseRequest:" : "JulienDelplanque 6/30/2016 10:43",
-		"handleOpenRequest:" : "JulienDelplanque 6/30/2016 10:37",
-		"handleWindowSelected:" : "JulienDelplanque 6/30/2016 10:38",
-		"highlightColor" : "JulienDelplanque 6/16/2016 22:12",
-		"highlightColor:" : "JulienDelplanque 6/16/2016 22:12",
-		"highlightWidth" : "JulienDelplanque 6/16/2016 22:14",
-		"highlightWidth:" : "JulienDelplanque 6/16/2016 22:14",
-		"initialize" : "JulienDelplanque 6/30/2016 10:38",
+		"handleOpenRequest:" : "JulienDelplanque 7/3/2016 13:38",
+		"handleWindowSelected:" : "JulienDelplanque 7/3/2016 13:38",
+		"initialize" : "JulienDelplanque 7/3/2016 13:38",
 		"listenToWPModelAnnouncementsOf:" : "JulienDelplanque 6/21/2016 19:02" } }
