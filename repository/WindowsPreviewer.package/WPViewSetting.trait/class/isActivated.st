@@ -1,3 +1,4 @@
 accessing
 isActivated
-	self explicitRequirement
+	"Override this method such that it returns true if the view is activated, else false."
+	^ self explicitRequirement
