@@ -7,9 +7,7 @@
 		 ],
 	"commentStamp" : "JulienDelplanque 6/16/2016 21:38",
 	"instvars" : [
-		"highlightColor",
-		"highlightWidth",
-		"highlightMorph" ],
+		"windowHighlighter" ],
 	"name" : "WPWindowsHighlighter",
 	"pools" : [
 		 ],
