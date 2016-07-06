@@ -1,3 +1,3 @@
 shortcuts
 closeWindowShortcut
-	^ $w asKeyCombination
+	^ KMModifier meta + $w asKeyCombination
