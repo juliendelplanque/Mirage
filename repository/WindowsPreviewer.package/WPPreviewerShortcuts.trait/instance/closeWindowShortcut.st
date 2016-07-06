@@ -1,0 +1,3 @@
+shortcuts
+closeWindowShortcut
+	^ $w asKeyCombination
