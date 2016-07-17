@@ -1,0 +1,14 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"setUp" : "JulienDelplanque 7/17/2016 12:27",
+		"testClose" : "JulienDelplanque 7/17/2016 12:22",
+		"testNext" : "JulienDelplanque 7/17/2016 12:22",
+		"testNextIndex" : "JulienDelplanque 6/21/2016 15:44",
+		"testNextWindow" : "JulienDelplanque 6/21/2016 15:51",
+		"testOpen" : "JulienDelplanque 7/17/2016 12:22",
+		"testOpenWithIndex" : "JulienDelplanque 7/17/2016 12:22",
+		"testPrevious" : "JulienDelplanque 7/17/2016 12:22",
+		"testPreviousIndex" : "JulienDelplanque 6/21/2016 15:50",
+		"testPreviousWindow" : "JulienDelplanque 6/21/2016 15:52" } }

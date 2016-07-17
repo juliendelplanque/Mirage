@@ -1,0 +1,14 @@
+{
+	"class" : {
+		"activate:" : "JulienDelplanque 6/30/2016 17:44",
+		"buildSettingNamed:with:" : "",
+		"initialize" : "JulienDelplanque 6/30/2016 17:46",
+		"isActivated" : "JulienDelplanque 6/30/2016 17:44",
+		"parent" : "",
+		"wpSettingOn:" : "JulienDelplanque 6/30/2016 17:47" },
+	"instance" : {
+		"handleCloseRequest:" : "JulienDelplanque 6/30/2016 18:20",
+		"handleOpenRequest:" : "JulienDelplanque 6/30/2016 18:19",
+		"handleWindowSelected:" : "JulienDelplanque 6/30/2016 18:21",
+		"initialize" : "JulienDelplanque 7/17/2016 12:39",
+		"listenToWPModelAnnouncementsOf:" : "JulienDelplanque 7/17/2016 12:22" } }

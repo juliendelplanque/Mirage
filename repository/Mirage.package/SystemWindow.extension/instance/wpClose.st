@@ -1,0 +1,3 @@
+*Mirage
+wpClose
+	^ self close

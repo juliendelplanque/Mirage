@@ -1,0 +1,14 @@
+{
+	"category" : "BaselineOfMirage",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "BaselineOfMirage",
+	"pools" : [
+		 ],
+	"super" : "BaselineOf",
+	"type" : "normal" }

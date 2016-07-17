@@ -1,0 +1,4 @@
+announcement handling
+handleWindowSelected: aWPThumbnailSelected
+	windowHighlighter
+		highlightWindow: aWPThumbnailSelected window

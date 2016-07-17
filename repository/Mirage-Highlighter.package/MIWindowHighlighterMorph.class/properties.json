@@ -1,0 +1,14 @@
+{
+	"category" : "Mirage-Highlighter-Morphic",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "JulienDelplanque 7/3/2016 13:30",
+	"instvars" : [
+		 ],
+	"name" : "MIWindowHighlighterMorph",
+	"pools" : [
+		 ],
+	"super" : "BorderedMorph",
+	"type" : "normal" }

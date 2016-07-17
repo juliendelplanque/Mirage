@@ -1,0 +1,4 @@
+announcement handling
+handleWindowSelected: aWPThumbnailSelected
+	buttonHighlighter
+		highlightButton: (aWPThumbnailSelected window worldTaskbar buttonForMorph: aWPThumbnailSelected window)
