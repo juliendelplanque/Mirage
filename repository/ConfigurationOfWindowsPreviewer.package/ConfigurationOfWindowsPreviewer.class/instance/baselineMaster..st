@@ -4,5 +4,5 @@ baselineMaster: spec
 
 	spec for: #'common' do: [
 		spec blessing: #'baseline'.
-		spec baseline: 'WindowsPreviewer' with: [
-			spec repository: 'github://juliendelplanque/WindowsPreviewer/repository' ] ].
+		spec baseline: 'Mirage' with: [
+			spec repository: 'github://juliendelplanque/Mirage/repository' ] ].
