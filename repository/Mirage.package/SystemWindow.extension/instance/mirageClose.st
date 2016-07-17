@@ -1,3 +1,3 @@
 *Mirage
-wpClose
+mirageClose
 	^ self close

@@ -1,4 +1,4 @@
 actions
 openCurrentWindow
-	self currentWindow wpOpen.
+	self currentWindow mirageOpen.
 	self announceCloseRequest

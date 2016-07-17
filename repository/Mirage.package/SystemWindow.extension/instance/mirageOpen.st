@@ -1,5 +1,5 @@
 *Mirage
-wpOpen
+mirageOpen
 	self isMinimized
 		ifTrue: [ self restore ]
 		ifFalse: [

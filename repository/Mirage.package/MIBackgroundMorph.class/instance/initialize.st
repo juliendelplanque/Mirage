@@ -2,5 +2,5 @@ initialization
 initialize
 	super initialize.
 	self
-		color: Smalltalk ui theme wpBackgroundColor;
+		color: Smalltalk ui theme mirageBackgroundColor;
 		beSticky
