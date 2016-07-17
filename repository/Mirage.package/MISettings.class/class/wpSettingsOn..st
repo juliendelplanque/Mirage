@@ -3,4 +3,5 @@ wpSettingsOn: aBuilder
 	<systemsettings>
 	
 	(aBuilder group: #mirageSettings)
-		label: 'Mirage' translated.
+		label: 'Mirage' translated;
+		parent: #tools.
