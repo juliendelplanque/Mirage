@@ -1,3 +1,3 @@
 *Mirage-Highlighter
-wpTaskbarTasksHighlighterColor
+mirageTaskbarTasksHighlighterColor
 	^ Color fromString: '#3297d4'

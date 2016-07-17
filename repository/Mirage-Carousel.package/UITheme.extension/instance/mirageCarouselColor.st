@@ -1,3 +1,3 @@
 *Mirage-Carousel
-wpCarouselColor
+mirageCarouselColor
 	^ Color transparent

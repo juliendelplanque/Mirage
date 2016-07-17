@@ -1,3 +1,3 @@
 *Mirage-Carousel
-wpThumbnailsBorderColor
+mirageThumbnailsBorderColor
 	^ Color gray

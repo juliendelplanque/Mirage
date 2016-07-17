@@ -1,3 +1,3 @@
 *Mirage
-wpOpenPreviewerShortcut
+mirageOpenPreviewerShortcut
 	^ KMModifier shift + KMUntypeableSingleKeyCombination tab

@@ -3,5 +3,5 @@ createOpenShortcut
 	self globalKMCategory
 		addKeymapEntry: (KMKeymap
 								named: #'Open windows previews'
-								shortcut: Smalltalk os wpOpenPreviewerShortcut
+								shortcut: Smalltalk os mirageOpenPreviewerShortcut
 								action: [ self open ]).

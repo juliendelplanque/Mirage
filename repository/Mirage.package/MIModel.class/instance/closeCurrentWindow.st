@@ -1,6 +1,6 @@
 actions
 closeCurrentWindow
-	self currentWindow wpClose.
+	self currentWindow mirageClose.
 	self close.
 	(self windowsManaged size - 1) > 0
 		ifTrue: [ self class
