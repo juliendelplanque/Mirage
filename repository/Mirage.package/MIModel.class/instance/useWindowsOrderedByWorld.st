@@ -1,4 +1,4 @@
 settings
 useWindowsOrderedByWorld
-	<wpWindowsManagementNamed: 'World order'>
+	<mirageWindowsManagementNamed: 'World order'>
 	self windowsManaged: self windowsOrderedByWorld

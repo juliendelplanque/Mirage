@@ -2,7 +2,7 @@ settings-definition
 wpViewsSettingsOn: aBuilder
 	<systemsettings>
 	
-	(aBuilder group: #wpViewsSettings)
+	(aBuilder group: #mirageViewsSettings)
 		label: 'Views to use' translated;
-		parent: #windowsPreviewerSettings
+		parent: #mirageSettings
 	
