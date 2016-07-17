@@ -1,3 +1,3 @@
 *Mirage-Highlighter
-wpHighlighterBorderColor
+mirageHighlighterBorderColor
 	^ Color fromString: '#3297d4'

@@ -1,3 +1,3 @@
 *Mirage-Highlighter
-wpHighlighterBorderColor
+mirageTaskbarTasksHighlighterColor
 	^ Color orange
