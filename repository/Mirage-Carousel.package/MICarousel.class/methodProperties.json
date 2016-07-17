@@ -1,10 +1,8 @@
 {
 	"class" : {
 		"activate:" : "JulienDelplanque 6/28/2016 15:08",
-		"buildSettingNamed:with:" : "",
 		"initialize" : "JulienDelplanque 6/28/2016 15:10",
 		"isActivated" : "JulienDelplanque 6/30/2016 12:40",
-		"parent" : "",
 		"wpSettingOn:" : "JulienDelplanque 6/30/2016 12:49" },
 	"instance" : {
 		"availableWidth" : "JulienDelplanque 6/18/2016 19:10",
@@ -15,7 +13,6 @@
 		"initialize" : "JulienDelplanque 6/30/2016 13:40",
 		"initializeTitleMorph" : "JulienDelplanque 7/17/2016 12:37",
 		"isWindowsPreviewer" : "JulienDelplanque 6/17/2016 17:55",
-		"listenToWPModelAnnouncementsOf:" : "JulienDelplanque 7/17/2016 12:22",
 		"openCenteredInBackground:" : "JulienDelplanque 6/30/2016 10:19",
 		"positionThumbnailsAfterIndex:on:" : "JulienDelplanque 6/18/2016 20:24",
 		"positionThumbnailsBeforeIndex:on:" : "JulienDelplanque 6/18/2016 20:24",
