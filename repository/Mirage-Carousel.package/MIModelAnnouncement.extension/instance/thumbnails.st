@@ -1,3 +1,3 @@
 *Mirage-Carousel
 thumbnails
-	^ self windows collect: #wpThumbnail
+	^ self windows collect: #mirageThumbnail

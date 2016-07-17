@@ -1,3 +1,3 @@
 *Mirage-Carousel
 nextThumbnail
-	^ self nextWindow wpThumbnail
+	^ self nextWindow mirageThumbnail

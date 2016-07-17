@@ -1,3 +1,3 @@
 *Mirage-Carousel
-wpThumbnailsSelectedBorderColor
+mirageThumbnailsSelectedBorderColor
 	^ Color fromString: '#3297d4'
