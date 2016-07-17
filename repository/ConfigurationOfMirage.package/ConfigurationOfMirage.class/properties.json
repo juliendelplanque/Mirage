@@ -1,0 +1,14 @@
+{
+	"category" : "ConfigurationOfMirage",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"LastVersionLoad" ],
+	"commentStamp" : "",
+	"instvars" : [
+		"project" ],
+	"name" : "ConfigurationOfMirage",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

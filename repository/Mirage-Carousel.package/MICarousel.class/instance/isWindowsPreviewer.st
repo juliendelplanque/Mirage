@@ -1,0 +1,3 @@
+testing
+isWindowsPreviewer
+	^ true

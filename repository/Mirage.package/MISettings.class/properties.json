@@ -1,0 +1,14 @@
+{
+	"category" : "Mirage-Settings",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "JulienDelplanque 6/19/2016 17:57",
+	"instvars" : [
+		 ],
+	"name" : "MISettings",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

@@ -1,0 +1,19 @@
+{
+	"category" : "Mirage-Model",
+	"classinstvars" : [
+		"windowsOrderingMethod" ],
+	"classtraitcomposition" : "MIWindowManipulator classTrait",
+	"classvars" : [
+		 ],
+	"commentStamp" : "JulienDelplanque 6/16/2016 18:39",
+	"instvars" : [
+		"announcer",
+		"windowsManaged",
+		"currentIndex",
+		"background" ],
+	"name" : "MIModel",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"traitcomposition" : "MIWindowManipulator",
+	"type" : "normal" }

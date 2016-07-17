@@ -1,0 +1,4 @@
+keymap
+createGlobalKMCategory
+	KMRepository default
+		setAsGlobalCategory: self globalKMCategoryName

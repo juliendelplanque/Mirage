@@ -1,6 +1,6 @@
 # WindowsPreviewer
 A windows switcher with a previewer for Pharo.
-![Demo](https://raw.githubusercontent.com/juliendelplanque/WindowsPreviewer/dev/misc/gif/demo.gif)
+![Demo](https://raw.githubusercontent.com/juliendelplanque/Mirage/dev/misc/gif/demo.gif)
 
 
 # Install
@@ -9,8 +9,8 @@ To install the stable version, you can simply use the **Catalog browser** and se
 or evaluate the following code snippet:
 ~~~
 Metacello new
-    repository: 'github://JulienDelplanque/WindowsPreviewer/repository';
-    baseline: 'WindowsPreviewer';
+    repository: 'github://JulienDelplanque/Mirage/repository';
+    baseline: 'Mirage';
     load
 ~~~
 
@@ -18,8 +18,8 @@ Metacello new
 Simply evaluate the following code snippet:
 ~~~
 Metacello new
-    repository: 'github://JulienDelplanque/WindowsPreviewer:dev/repository';
-    baseline: 'WindowsPreviewer';
+    repository: 'github://JulienDelplanque/Mirage:dev/repository';
+    baseline: 'Mirage';
     load
 ~~~
 
@@ -30,7 +30,7 @@ Then, you can choose the view you want to use by checking the buttons correspond
 - If the default shortcut to open the previewer does not fit with you, you can change it from settings as well.
 - It is also possible to change the order used to display windows in the previewer by selecting one the method in "Windows management" setting.
 
-![Settings browser](https://raw.githubusercontent.com/juliendelplanque/WindowsPreviewer/dev/misc/img/settings.png)
+![Settings browser](https://raw.githubusercontent.com/juliendelplanque/Mirage/dev/misc/img/settings.png)
 
 # How to use
 Once you activated the 'Windows Previewer' in the 'Settings browser' hit 'Ctrl+Tab' to open the previewer.
@@ -45,10 +45,10 @@ You can now use left/right arrow to choose a window and hit the space key to ope
 | Esc                  | Quit the windows previewer without changing the current window.           |
 
 # Developers documentation
-The [wiki](https://github.com/juliendelplanque/WindowsPreviewer/wiki) holds all the documentation needed to contribute to the project.
+The [wiki](https://github.com/juliendelplanque/Mirage/wiki) holds all the documentation needed to contribute to the project.
 
-If you want to contribute to this project, please follow the [contribution guidelines](https://github.com/juliendelplanque/WindowsPreviewer/wiki/How-to-contribute).
+If you want to contribute to this project, please follow the [contribution guidelines](https://github.com/juliendelplanque/Mirage/wiki/How-to-contribute).
 
 Here are some useful links:
-- [Creating your own view](https://github.com/juliendelplanque/WindowsPreviewer/wiki/How-to-extend-WP#creating-you-own-view)
-- [Add a windows ordering method](https://github.com/juliendelplanque/WindowsPreviewer/wiki/How-to-extend-WP#add-a-windows-ordering-method)
+- [Creating your own view](https://github.com/juliendelplanque/Mirage/wiki/How-to-extend-WP#creating-you-own-view)
+- [Add a windows ordering method](https://github.com/juliendelplanque/Mirage/wiki/How-to-extend-WP#add-a-windows-ordering-method)

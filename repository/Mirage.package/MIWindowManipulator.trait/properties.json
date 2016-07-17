@@ -1,0 +1,6 @@
+{
+	"category" : "Mirage-Traits",
+	"classtraitcomposition" : "MITaskbarManipulator classTrait",
+	"commentStamp" : "JulienDelplanque 6/15/2016 12:39",
+	"name" : "MIWindowManipulator",
+	"traitcomposition" : "MITaskbarManipulator" }
