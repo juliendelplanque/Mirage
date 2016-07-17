@@ -5,7 +5,8 @@ A windows switcher with a previewer for Pharo.
 
 # Install
 ## Stable version
-Simply evaluate the following code snippet:
+To install the stable version, you can simply use the **Catalog browser** and search for 'WindowsPreviewer'
+or evaluate the following code snippet:
 ~~~
 Metacello new
     repository: 'github://JulienDelplanque/WindowsPreviewer/repository';
