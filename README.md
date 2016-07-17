@@ -1,4 +1,4 @@
-# WindowsPreviewer
+# Mirage
 A windows switcher with a previewer for Pharo.
 ![Demo](https://raw.githubusercontent.com/juliendelplanque/Mirage/dev/misc/gif/demo.gif)
 
@@ -24,7 +24,7 @@ Metacello new
 ~~~
 
 # Setup
-Go to the 'Settings browser' and check the 'Activate' button in 'Windows Previewer' group.
+Go to the 'Settings browser' and check the 'Activate' button in 'Mirage' subgroup of 'Tools' group.
 Then, you can choose the view you want to use by checking the buttons corresponding.
 
 - If the default shortcut to open the previewer does not fit with you, you can change it from settings as well.
@@ -33,7 +33,7 @@ Then, you can choose the view you want to use by checking the buttons correspond
 ![Settings browser](https://raw.githubusercontent.com/juliendelplanque/Mirage/dev/misc/img/settings.png)
 
 # How to use
-Once you activated the 'Windows Previewer' in the 'Settings browser' hit 'Ctrl+Tab' to open the previewer.
+Once you activated **Mirage** in the 'Settings browser' hit 'Ctrl+Tab' to open the previewer.
 You can now use left/right arrow to choose a window and hit the space key to open it.
 
 | Key                  | Purpose                                                                   |
