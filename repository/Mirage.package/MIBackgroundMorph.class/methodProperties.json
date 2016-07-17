@@ -2,15 +2,9 @@
 	"class" : {
 		 },
 	"instance" : {
-		"closeShortcut" : "",
-		"closeWindowShortcut" : "",
-		"createShortcutsOn:" : "",
 		"handleCloseRequest:" : "JulienDelplanque 6/30/2016 10:14",
 		"handleOpenRequest:" : "JulienDelplanque 7/6/2016 21:32",
 		"handleWindowSelected:" : "JulienDelplanque 6/30/2016 10:03",
 		"initialize" : "JulienDelplanque 7/17/2016 14:38",
 		"listenToFocusLossOn:" : "JulienDelplanque 7/6/2016 21:34",
-		"nextShortcut" : "",
-		"openWindowShortcut" : "",
-		"previousShortcut" : "",
 		"wantsToBeTopmost" : "JulienDelplanque 6/30/2016 10:05" } }
