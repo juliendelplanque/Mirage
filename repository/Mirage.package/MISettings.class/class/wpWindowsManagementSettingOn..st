@@ -8,4 +8,4 @@ wpWindowsManagementSettingOn: aBuilder
 		domainValues: self windowsOrderingChoices;
 		setSelector: #windowsOrderingMethod:;
 		getSelector: #windowsOrderingMethod;
-		parent: #windowsPreviewerSettings
+		parent: #mirageSettings

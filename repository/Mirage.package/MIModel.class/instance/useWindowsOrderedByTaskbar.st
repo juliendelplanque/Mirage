@@ -1,4 +1,4 @@
 settings
 useWindowsOrderedByTaskbar
-	<wpWindowsManagementNamed: 'Taskbar order'>
+	<mirageWindowsManagementNamed: 'Taskbar order'>
 	self windowsManaged: self windowsOrderedByTaskbar

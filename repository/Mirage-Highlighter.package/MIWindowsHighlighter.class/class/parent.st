@@ -1,3 +1,3 @@
 accessing
 parent
-	^ #wpViewsSettings
+	^ #mirageViewsSettings
