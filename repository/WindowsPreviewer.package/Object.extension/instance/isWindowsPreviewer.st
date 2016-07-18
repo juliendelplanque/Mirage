@@ -1,3 +1,0 @@
-*WindowsPreviewer
-isWindowsPreviewer
-	^ false
