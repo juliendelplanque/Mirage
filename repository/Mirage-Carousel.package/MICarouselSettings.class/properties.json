@@ -1,0 +1,14 @@
+{
+	"category" : "Mirage-Carousel-Settings",
+	"classinstvars" : [
+		"thumbnailUpdateTime" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "JulienDelplanque 9/26/2016 14:52",
+	"instvars" : [
+		 ],
+	"name" : "MICarouselSettings",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
