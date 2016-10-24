@@ -6,4 +6,5 @@ initialize
 		thumbnailsBorderColor: Smalltalk ui theme mirageThumbnailsBorderColor;
 		thumbnailsSelectedBorderColor: Smalltalk ui theme mirageThumbnailsSelectedBorderColor;
 		thumbnailsBorderWidth: Smalltalk ui theme mirageThumbnailsBorderWidth;
-		spaceBetweenThumbnails: Smalltalk ui theme mirageSpaceBetweenThumbnails
+		spaceBetweenThumbnails: Smalltalk ui theme mirageSpaceBetweenThumbnails;
+		mirageLevel: 100
