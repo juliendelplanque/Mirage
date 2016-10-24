@@ -1,3 +1,0 @@
-*WindowsPreviewer
-wpOpenPreviewerShortcut
-	^ self shouldBeImplemented

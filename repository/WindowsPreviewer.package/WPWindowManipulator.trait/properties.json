@@ -1,6 +1,0 @@
-{
-	"category" : "WindowsPreviewer-Traits",
-	"classtraitcomposition" : "WPTaskbarManipulator classTrait",
-	"commentStamp" : "JulienDelplanque 6/15/2016 12:39",
-	"name" : "WPWindowManipulator",
-	"traitcomposition" : "WPTaskbarManipulator" }

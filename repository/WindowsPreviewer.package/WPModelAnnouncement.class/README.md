@@ -1,1 +1,0 @@
-I am a generic announcement coming from a WPModel.

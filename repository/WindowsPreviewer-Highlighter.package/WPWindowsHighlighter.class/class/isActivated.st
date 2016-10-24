@@ -1,3 +1,0 @@
-accessing
-isActivated
-	^ isActivated

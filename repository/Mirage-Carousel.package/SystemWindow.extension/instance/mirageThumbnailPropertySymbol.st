@@ -1,0 +1,3 @@
+*Mirage-Carousel
+mirageThumbnailPropertySymbol
+	^ #mirageThumbnail
