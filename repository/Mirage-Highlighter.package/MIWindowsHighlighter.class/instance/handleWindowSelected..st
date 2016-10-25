@@ -1,4 +1,6 @@
 announcement handling
 handleWindowSelected: aWPThumbnailSelected
-	windowHighlighter
-		highlightWindow: aWPThumbnailSelected window
+	aWPThumbnailSelected window isCollapsed
+		ifFalse: [ 
+			windowHighlighter
+				highlightWindow: aWPThumbnailSelected window ]

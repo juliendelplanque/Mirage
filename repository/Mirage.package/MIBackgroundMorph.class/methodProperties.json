@@ -2,6 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
+		"addMorph:" : "JulienDelplanque 10/24/2016 18:19",
 		"handleCloseRequest:" : "JulienDelplanque 6/30/2016 10:14",
 		"handleOpenRequest:" : "JulienDelplanque 7/6/2016 21:32",
 		"handleWindowSelected:" : "JulienDelplanque 6/30/2016 10:03",
