@@ -1,7 +1,5 @@
 # Mirage
-A windows switcher with a previewer for Pharo.
 ![Demo](https://raw.githubusercontent.com/juliendelplanque/Mirage/dev/misc/gif/demo.gif)
-
 
 # Install
 ## Stable version
