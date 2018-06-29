@@ -1,4 +1,4 @@
 accessing
 windowsOrderingMethod
 	^ windowsOrderingMethod
-		ifNil: [ windowsOrderingMethod := MISettings windowsOrderingChoices sorted first tail ]
+		ifNil: [ windowsOrderingMethod := MISettings windowsOrderingChoices sorted first value ]

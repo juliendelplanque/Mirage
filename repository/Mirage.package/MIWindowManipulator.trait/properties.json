@@ -1,6 +1,9 @@
 {
-	"category" : "Mirage-Traits",
-	"classtraitcomposition" : "MITaskbarManipulator classTrait",
 	"commentStamp" : "JulienDelplanque 6/15/2016 12:39",
+	"traitcomposition" : "MITaskbarManipulator",
+	"classtraitcomposition" : "MITaskbarManipulator classTrait",
+	"category" : "Mirage-Traits",
+	"classinstvars" : [ ],
 	"name" : "MIWindowManipulator",
-	"traitcomposition" : "MITaskbarManipulator" }
+	"instvars" : [ ]
+}
