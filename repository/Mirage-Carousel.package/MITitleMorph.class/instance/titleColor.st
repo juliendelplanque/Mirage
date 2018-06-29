@@ -1,3 +1,0 @@
-accessing
-titleColor
-	^ title color

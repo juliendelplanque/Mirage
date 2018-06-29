@@ -1,3 +1,0 @@
-keymap
-globalKMCategoryName
-	^ #WindowsPreviewGlobal

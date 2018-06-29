@@ -1,1 +1,0 @@
-The settings for the Windows Previewer's carousel.

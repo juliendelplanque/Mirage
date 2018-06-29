@@ -1,3 +1,0 @@
-accessing
-availableWidth
-	^ World width

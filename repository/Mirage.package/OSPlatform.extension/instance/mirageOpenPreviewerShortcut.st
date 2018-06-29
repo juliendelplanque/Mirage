@@ -1,3 +1,0 @@
-*Mirage
-mirageOpenPreviewerShortcut
-	^ self shouldBeImplemented

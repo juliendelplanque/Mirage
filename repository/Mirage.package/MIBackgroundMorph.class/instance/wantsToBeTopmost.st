@@ -1,3 +1,0 @@
-accessing
-wantsToBeTopmost
-	^ true

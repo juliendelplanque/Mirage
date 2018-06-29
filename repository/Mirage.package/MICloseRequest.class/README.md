@@ -1,1 +1,0 @@
-I announce the fact that the view shoud disappear from the screen.
