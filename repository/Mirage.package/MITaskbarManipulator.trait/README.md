@@ -1,1 +1,0 @@
-I define methods to manipulate the TaskbarMorph.

@@ -1,3 +1,0 @@
-*Mirage
-mirageClose
-	^ self close

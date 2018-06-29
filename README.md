@@ -7,7 +7,7 @@ To install the stable version, you can simply use the **Catalog browser** and se
 or evaluate the following code snippet:
 ~~~
 Metacello new
-    repository: 'github://JulienDelplanque/Mirage/repository';
+    repository: 'github://JulienDelplanque/Mirage/src';
     baseline: 'Mirage';
     load
 ~~~
@@ -16,10 +16,22 @@ Metacello new
 Simply evaluate the following code snippet:
 ~~~
 Metacello new
-    repository: 'github://JulienDelplanque/Mirage:dev/repository';
+    repository: 'github://JulienDelplanque/Mirage:dev/src';
     baseline: 'Mirage';
     load
 ~~~
+
+## Version management 
+
+This project use semantic versionning to define the releases. This mean that each stable release of the project will get associate a version number of the form `vX.Y.Z`. 
+
+- **X** define the major version number
+- **Y** define the minor version number 
+- **Z** define the patch version number
+
+When a release contains only bug fixes, the patch number increase. When the release contains new features backward compatibles, the minor version increase. When the release contains breaking changes, the major version increase. 
+
+Thus, it should be safe to depend on a fixed major version and moving minor version of this project.
 
 # Setup
 Go to the 'Settings browser' and check the 'Activate' button in 'Mirage' subgroup of 'Tools' group.

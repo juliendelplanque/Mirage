@@ -1,3 +1,0 @@
-shortcuts
-closeShortcut
-	^ KMUntypeableSingleKeyCombination escape

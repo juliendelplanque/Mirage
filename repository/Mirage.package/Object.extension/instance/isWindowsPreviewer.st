@@ -1,3 +1,0 @@
-*Mirage
-isWindowsPreviewer
-	^ false

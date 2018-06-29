@@ -1,1 +1,0 @@
-I highlight windows selected during the preview.

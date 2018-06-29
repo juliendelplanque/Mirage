@@ -1,1 +1,0 @@
-I am the preview of the windows available in world.
