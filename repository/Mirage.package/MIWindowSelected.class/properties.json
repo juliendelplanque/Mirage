@@ -1,14 +1,11 @@
 {
-	"category" : "Mirage-Announcements",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "JulienDelplanque 6/24/2016 17:31",
-	"instvars" : [
-		 ],
-	"name" : "MIWindowSelected",
-	"pools" : [
-		 ],
 	"super" : "MIModelAnnouncement",
-	"type" : "normal" }
+	"category" : "Mirage-Announcements",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "MIWindowSelected",
+	"type" : "normal"
+}
