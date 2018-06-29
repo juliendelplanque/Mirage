@@ -7,7 +7,7 @@ To install the stable version, you can simply use the **Catalog browser** and se
 or evaluate the following code snippet:
 ~~~
 Metacello new
-    repository: 'github://JulienDelplanque/Mirage/repository';
+    repository: 'github://JulienDelplanque/Mirage/src';
     baseline: 'Mirage';
     load
 ~~~
@@ -16,7 +16,7 @@ Metacello new
 Simply evaluate the following code snippet:
 ~~~
 Metacello new
-    repository: 'github://JulienDelplanque/Mirage:dev/repository';
+    repository: 'github://JulienDelplanque/Mirage:dev/src';
     baseline: 'Mirage';
     load
 ~~~
