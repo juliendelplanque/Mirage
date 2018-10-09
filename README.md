@@ -1,4 +1,4 @@
-# Mirage
+# Mirage [![Build Status](https://travis-ci.org/juliendelplanque/Mirage.svg?branch=master)](https://travis-ci.org/juliendelplanque/Mirage)
 ![Demo](https://raw.githubusercontent.com/juliendelplanque/Mirage/dev/misc/gif/demo.gif)
 
 # Install
