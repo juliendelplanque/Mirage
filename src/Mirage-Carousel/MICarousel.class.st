@@ -98,7 +98,7 @@ MICarousel >> initializeTitleMorph [
 		titleColor: self thumbnailsSelectedBorderColor;
 		extent: self extent x @ titleMorph extent y;
 		minimalHeight;
-		position: titleMorph position x @ (titleMorph position y + self extent y).
+		position: titleMorph position x @ (titleMorph position y + self extent y + Smalltalk ui theme mirageThumbnailsBorderWidth).
 	self addMorph: titleMorph.
 ]
 
