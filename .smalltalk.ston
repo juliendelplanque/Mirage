@@ -1,0 +1,15 @@
+SmalltalkCISpec {
+    #loading : [
+        SCIMetacelloLoadSpec {
+            #baseline : 'Mirage',
+            #directory : 'src',
+            #platforms : [ #pharo ]
+        }
+    ],
+    #testing : {
+        #categories : [ 'Mirage-Tests' ],
+        #coverage : {
+            #categories : [ 'Mirage-Tests' ]
+    }
+  }
+}

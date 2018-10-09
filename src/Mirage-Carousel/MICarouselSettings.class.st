@@ -12,7 +12,12 @@ Class {
 
 { #category : #accessing }
 MICarouselSettings class >> defaultThumbnailUpdateTime [
-	^ 5
+	^ 5 seconds
+]
+
+{ #category : #accessing }
+MICarouselSettings class >> thumbnailUpdateThreadsPriority [
+	^ 10
 ]
 
 { #category : #accessing }
@@ -21,8 +26,14 @@ MICarouselSettings class >> thumbnailUpdateTime [
 ]
 
 { #category : #accessing }
-MICarouselSettings class >> thumbnailUpdateTime: anInteger [
-	thumbnailUpdateTime := anInteger
+MICarouselSettings class >> thumbnailUpdateTime: anObject [
+	anObject isInteger
+		ifTrue: [ thumbnailUpdateTime := anObject seconds ].
+	
+	anObject class = Duration
+		ifFalse: [ self error: 'Thumbnail update time should be a duration or an integer.' ].
+		
+	thumbnailUpdateTime := anObject
 ]
 
 { #category : #'settings-definition' }
