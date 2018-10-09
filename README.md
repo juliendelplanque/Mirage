@@ -5,9 +5,11 @@
 ## Stable version
 To install the stable version, you can simply use the **Catalog browser** and search for 'WindowsPreviewer'
 or evaluate the following code snippet:
+
+### Pharo 6.1
 ~~~
 Metacello new
-    repository: 'github://JulienDelplanque/Mirage/src';
+    repository: 'github://JulienDelplanque/Mirage:1.0.0/src';
     baseline: 'Mirage';
     load
 ~~~
