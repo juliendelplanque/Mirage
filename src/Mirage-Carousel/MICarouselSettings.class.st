@@ -7,12 +7,13 @@ Class {
 	#classInstVars : [
 		'thumbnailUpdateTime'
 	],
-	#category : 'Mirage-Carousel-Settings'
+	#category : #'Mirage-Carousel-Settings'
 }
 
 { #category : #accessing }
 MICarouselSettings class >> defaultThumbnailUpdateTime [
-	^ 5 seconds
+
+	^ 5
 ]
 
 { #category : #accessing }
@@ -27,13 +28,10 @@ MICarouselSettings class >> thumbnailUpdateTime [
 
 { #category : #accessing }
 MICarouselSettings class >> thumbnailUpdateTime: anObject [
+
 	anObject isInteger
-		ifTrue: [ thumbnailUpdateTime := anObject seconds ].
-	
-	anObject class = Duration
-		ifFalse: [ self error: 'Thumbnail update time should be a duration or an integer.' ].
-		
-	thumbnailUpdateTime := anObject
+		ifTrue: [ thumbnailUpdateTime := anObject ]
+		ifFalse: [ self error: 'Thumbnail update time should be an integer.' ]
 ]
 
 { #category : #'settings-definition' }
