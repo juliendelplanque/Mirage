@@ -7,7 +7,7 @@ Class {
 	#instVars : [
 		'title'
 	],
-	#category : 'Mirage-Carousel-Morphic'
+	#category : #'Mirage-Carousel-Morphic'
 }
 
 { #category : #'instance creation' }

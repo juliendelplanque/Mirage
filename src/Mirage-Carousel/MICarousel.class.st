@@ -16,7 +16,7 @@ Class {
 	#classInstVars : [
 		'isActivated'
 	],
-	#category : 'Mirage-Carousel-Morphic'
+	#category : #'Mirage-Carousel-Morphic'
 }
 
 { #category : #accessing }
@@ -26,8 +26,8 @@ MICarousel class >> activate: aBoolean [
 
 { #category : #'initialize-release' }
 MICarousel class >> initialize [
-	super initialize.
-	self activate: false
+
+	self activate: true
 ]
 
 { #category : #accessing }
@@ -37,6 +37,7 @@ MICarousel class >> isActivated [
 
 { #category : #settings }
 MICarousel class >> wpSettingOn: aBuilder [
+
 	<systemsettings>
 	(self buildSettingNamed: #wpCarouselSetting with: aBuilder)
 		label: 'Carousel';
