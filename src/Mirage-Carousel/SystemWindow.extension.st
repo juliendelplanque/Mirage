@@ -39,7 +39,7 @@ SystemWindow >> mirageThumbnailPropertySymbol [
 { #category : #'*Mirage-Carousel' }
 SystemWindow >> scheduleThumbnailUpdate [
 	([ 
-		MICarouselSettings thumbnailUpdateTime wait.
+		MICarouselSettings thumbnailUpdateTime seconds wait.
 		self mirageMutex 
 			critical: [ 
 				self isCollapsed ifFalse: [ self updateMirageThumbnail ] ].
