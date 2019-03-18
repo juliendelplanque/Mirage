@@ -5,7 +5,7 @@ Trait {
 	#name : #MIWindowManipulator,
 	#traits : 'MITaskbarManipulator',
 	#classTraits : 'MITaskbarManipulator classTrait',
-	#category : 'Mirage-Traits'
+	#category : #'Mirage-Traits'
 }
 
 { #category : #'windows manipulation' }
@@ -17,7 +17,7 @@ MIWindowManipulator >> topWindow [
 MIWindowManipulator >> topWindowIn: aWorldMorph [
 	^ (self windowsIn: aWorldMorph)
 			detect: #isTopWindow
-			ifNone: [ ENoTopWindow signal ]
+			ifNone: [ self error: 'No top window available.' ]
 ]
 
 { #category : #'windows manipulation' }
