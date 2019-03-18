@@ -14,7 +14,7 @@ Metacello new
     load
 ~~~
 
-## Development version
+## Development version (Pharo 7.x)
 Simply evaluate the following code snippet:
 ~~~
 Metacello new
