@@ -14,7 +14,15 @@ Metacello new
     load
 ~~~
 
-## Development version (Pharo 7.x)
+### Pharo 7.x
+~~~
+Metacello new
+    repository: 'github://JulienDelplanque/Mirage:2.1.0/src';
+    baseline: 'Mirage';
+    load
+~~~
+
+## Development version (Pharo 8.0)
 Simply evaluate the following code snippet:
 ~~~
 Metacello new
