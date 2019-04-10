@@ -16,7 +16,7 @@ Class {
 	#classInstVars : [
 		'isActivated'
 	],
-	#category : #'Mirage-Carousel-Morphic'
+	#category : 'Mirage-Carousel-Morphic'
 }
 
 { #category : #accessing }
