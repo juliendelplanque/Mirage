@@ -7,7 +7,7 @@ Class {
 	#classInstVars : [
 		'thumbnailUpdateTime'
 	],
-	#category : #'Mirage-Carousel-Settings'
+	#category : 'Mirage-Carousel-Settings'
 }
 
 { #category : #accessing }
@@ -18,7 +18,7 @@ MICarouselSettings class >> defaultThumbnailUpdateTime [
 
 { #category : #accessing }
 MICarouselSettings class >> thumbnailUpdateThreadsPriority [
-	^ 10
+	^ 20
 ]
 
 { #category : #accessing }
