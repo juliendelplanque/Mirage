@@ -9,7 +9,7 @@ or evaluate the following code snippet:
 ### Pharo 6.1
 ~~~
 Metacello new
-    repository: 'github://JulienDelplanque/Mirage:1.0.0/src';
+    repository: 'github://JulienDelplanque/Mirage:v1.0.0/src';
     baseline: 'Mirage';
     load
 ~~~
@@ -17,7 +17,7 @@ Metacello new
 ### Pharo 7.x
 ~~~
 Metacello new
-    repository: 'github://JulienDelplanque/Mirage:2.1.0/src';
+    repository: 'github://JulienDelplanque/Mirage:v2.1.0/src';
     baseline: 'Mirage';
     load
 ~~~
