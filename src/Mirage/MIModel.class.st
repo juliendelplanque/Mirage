@@ -195,7 +195,7 @@ MIModel >> currentIndex [
 
 { #category : #accessing }
 MIModel >> currentWindow [
-	^ self windowsManaged at: currentIndex
+	^ self windowsManaged at: (currentIndex min: self windowsManaged size)
 ]
 
 { #category : #initialization }
