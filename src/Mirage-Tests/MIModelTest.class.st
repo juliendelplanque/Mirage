@@ -4,7 +4,7 @@ Class {
 	#instVars : [
 		'model'
 	],
-	#category : 'Mirage-Tests'
+	#category : #'Mirage-Tests'
 }
 
 { #category : #running }
@@ -30,12 +30,7 @@ MIModelTest >> testNext [
 		when: MIWindowSelected do: [ blockExecuted := true ].
 	self
 		assert: model windowsManaged size equals: 3;
-		assert: model currentIndex equals: 1.
-	model next.
-	self
-		assert: blockExecuted;
 		assert: model currentIndex equals: 2.
-	blockExecuted := false.
 	model next.
 	self
 		assert: blockExecuted;
@@ -45,20 +40,25 @@ MIModelTest >> testNext [
 	self
 		assert: blockExecuted;
 		assert: model currentIndex equals: 1.
+	blockExecuted := false.
+	model next.
+	self
+		assert: blockExecuted;
+		assert: model currentIndex equals: 2.
 ]
 
 { #category : #'tests-accessing' }
 MIModelTest >> testNextIndex [
 	self
-		assert: model currentIndex equals: 1;
-		assert: model nextIndex equals: 2
+		assert: model currentIndex equals: 2;
+		assert: model nextIndex equals: 3
 ]
 
 { #category : #'tests-accessing' }
 MIModelTest >> testNextWindow [
 	self
-		assert: model currentWindow equals: (model windowsManaged at: 1);
-		assert: model nextWindow equals: (model windowsManaged at: 2)
+		assert: model currentWindow equals: (model windowsManaged at: 2);
+		assert: model nextWindow equals: (model windowsManaged at: 3)
 ]
 
 { #category : #'tests-actions' }
@@ -98,7 +98,12 @@ MIModelTest >> testPrevious [
 		when: MIWindowSelected do: [ blockExecuted := true ].
 	self
 		assert: model windowsManaged size equals: 3;
+		assert: model currentIndex equals: 2.
+	model previous.
+	self
+		assert: blockExecuted;
 		assert: model currentIndex equals: 1.
+	blockExecuted := false.
 	model previous.
 	self
 		assert: blockExecuted;
@@ -108,23 +113,18 @@ MIModelTest >> testPrevious [
 	self
 		assert: blockExecuted;
 		assert: model currentIndex equals: 2.
-	blockExecuted := false.
-	model previous.
-	self
-		assert: blockExecuted;
-		assert: model currentIndex equals: 1.
 ]
 
 { #category : #'tests-accessing' }
 MIModelTest >> testPreviousIndex [
 	self
-		assert: model currentIndex equals: 1;
-		assert: model previousIndex equals: 3
+		assert: model currentIndex equals: 2;
+		assert: model previousIndex equals: 1
 ]
 
 { #category : #'tests-accessing' }
 MIModelTest >> testPreviousWindow [
 	self
-		assert: model currentWindow equals: (model windowsManaged at: 1);
-		assert: model previousWindow equals: (model windowsManaged at: 3)
+		assert: model currentWindow equals: (model windowsManaged at: 2);
+		assert: model previousWindow equals: (model windowsManaged at: 1)
 ]
