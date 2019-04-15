@@ -62,9 +62,8 @@ MIBackgroundMorph >> initialize [
 { #category : #'events-processing' }
 MIBackgroundMorph >> keyUp: anEvent [
 	super keyUp: anEvent.
-	"anEvent asKeyCombination = (KMModifier shift + Character null)"
-	anEvent keyValue logCr.
-	anEvent keyValue = 56 "User unpress shift key thus putting it up."
+	"User unpress shift key thus putting it up."
+	anEvent key = (KeyboardKey named: 'SHIFT_L')
 		ifTrue: [ model openCurrentWindow ]
 ]
 
