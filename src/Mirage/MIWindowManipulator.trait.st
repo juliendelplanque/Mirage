@@ -5,7 +5,7 @@ Trait {
 	#name : #MIWindowManipulator,
 	#traits : 'MITaskbarManipulator',
 	#classTraits : 'MITaskbarManipulator classTrait',
-	#category : #'Mirage-Traits'
+	#category : 'Mirage-Traits'
 }
 
 { #category : #'windows manipulation' }

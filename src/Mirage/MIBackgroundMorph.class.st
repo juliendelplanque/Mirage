@@ -6,10 +6,13 @@ Class {
 	#superclass : #Morph,
 	#traits : 'MIModelListener + MIPreviewerShortcuts',
 	#classTraits : 'MIModelListener classTrait + MIPreviewerShortcuts classTrait',
-	#category : 'Mirage-Morphic'
+	#instVars : [
+		'model'
+	],
+	#category : #'Mirage-Morphic'
 }
 
-{ #category : #'as yet unclassified' }
+{ #category : #'submorphs-add/remove' }
 MIBackgroundMorph >> addMorph: aMorph [
 	| firstGreater |
 	firstGreater := submorphs
@@ -22,22 +25,30 @@ MIBackgroundMorph >> addMorph: aMorph [
 MIBackgroundMorph >> handleCloseRequest: aWPCloseRequest [
 	self announcer unsubscribe: self.
 	aWPCloseRequest model announcer unsubscribe: self.
-	self delete
+	self delete.
+	MIModel createOpenShortcut
 ]
 
 { #category : #'announcement handling' }
 MIBackgroundMorph >> handleOpenRequest: aWPOpenRequest [
+	model := aWPOpenRequest model.
+	MIModel removeShortcuts.
 	self
 		createShortcutsOn: aWPOpenRequest model;
 		listenToFocusLossOn: aWPOpenRequest;
 		extent: World extent;
 		openInWorld;
-		takeKeyboardFocus
+		takeKeyboardFocus.
 ]
 
 { #category : #'announcement handling' }
 MIBackgroundMorph >> handleWindowSelected: aWPThumbnailSelected [
 	"Do nothing"
+]
+
+{ #category : #'events-processing' }
+MIBackgroundMorph >> handlesKeyUp: anEvent [
+	^ true
 ]
 
 { #category : #initialization }
@@ -46,6 +57,15 @@ MIBackgroundMorph >> initialize [
 	self
 		color: Smalltalk ui theme mirageBackgroundColor;
 		beSticky
+]
+
+{ #category : #'events-processing' }
+MIBackgroundMorph >> keyUp: anEvent [
+	super keyUp: anEvent.
+	"anEvent asKeyCombination = (KMModifier shift + Character null)"
+	anEvent keyValue logCr.
+	anEvent keyValue = 56 "User unpress shift key thus putting it up."
+		ifTrue: [ model openCurrentWindow ]
 ]
 
 { #category : #listening }

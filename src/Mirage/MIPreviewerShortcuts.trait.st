@@ -9,11 +9,6 @@ Trait {
 }
 
 { #category : #shortcuts }
-MIPreviewerShortcuts >> closeShortcut [
-	^ KMUntypeableSingleKeyCombination escape
-]
-
-{ #category : #shortcuts }
 MIPreviewerShortcuts >> closeWindowShortcut [
 	^ KMModifier meta + $w asKeyCombination
 ]
@@ -21,8 +16,6 @@ MIPreviewerShortcuts >> closeWindowShortcut [
 { #category : #'shortcuts creation' }
 MIPreviewerShortcuts >> createShortcutsOn: aWPModel [
 	self
-		on: self openWindowShortcut do: [ aWPModel openCurrentWindow ];
-		on: self closeShortcut do: [ aWPModel close ];
 		on: self nextShortcut do: [ aWPModel next ];
 		on: self previousShortcut do: [ aWPModel previous ];
 		on: self closeWindowShortcut do: [ aWPModel closeCurrentWindow ]
@@ -30,20 +23,11 @@ MIPreviewerShortcuts >> createShortcutsOn: aWPModel [
 
 { #category : #shortcuts }
 MIPreviewerShortcuts >> nextShortcut [
-	^ KMUntypeableSingleKeyCombination tab
-		| KMUntypeableSingleKeyCombination arrowRight
-]
-
-{ #category : #shortcuts }
-MIPreviewerShortcuts >> openWindowShortcut [
-	^ Character space asKeyCombination
-		| KMUntypeableSingleKeyCombination enter
-		| Character cr asKeyCombination
-		| Character lf asKeyCombination
+	^ (KMModifier shift + KMUntypeableSingleKeyCombination tab)
+		| (KMModifier shift + KMUntypeableSingleKeyCombination arrowRight)
 ]
 
 { #category : #shortcuts }
 MIPreviewerShortcuts >> previousShortcut [
-	^ (KMModifier shift + KMUntypeableSingleKeyCombination tab)
-			| KMUntypeableSingleKeyCombination arrowLeft
+	^ KMModifier shift + KMUntypeableSingleKeyCombination arrowLeft
 ]

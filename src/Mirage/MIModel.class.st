@@ -201,7 +201,7 @@ MIModel >> currentWindow [
 { #category : #initialization }
 MIModel >> initialize [
 	super initialize.
-	currentIndex := 1.
+	currentIndex := 2.
 	self initializeBackground
 ]
 
