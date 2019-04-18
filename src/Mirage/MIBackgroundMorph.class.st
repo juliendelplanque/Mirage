@@ -99,7 +99,7 @@ MIBackgroundMorph >> nextShortcut [
 
 { #category : #shortcuts }
 MIBackgroundMorph >> previousShortcut [
-	^ shortcutToRestore shift
+	^ shortcutToRestore modifier + KMUntypeableSingleKeyCombination arrowLeft
 ]
 
 { #category : #accessing }
