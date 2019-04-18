@@ -7,7 +7,8 @@ Class {
 	#traits : 'MIModelListener + MIPreviewerShortcuts',
 	#classTraits : 'MIModelListener classTrait + MIPreviewerShortcuts classTrait',
 	#instVars : [
-		'model'
+		'model',
+		'shortcutToRestore'
 	],
 	#category : #'Mirage-Morphic'
 }
@@ -26,12 +27,14 @@ MIBackgroundMorph >> handleCloseRequest: aWPCloseRequest [
 	self announcer unsubscribe: self.
 	aWPCloseRequest model announcer unsubscribe: self.
 	self delete.
-	MIModel openPreviewerKeymap reset
+	MIModel openPreviewerKeymap shortcut: shortcutToRestore.
+	shortcutToRestore := nil
 ]
 
 { #category : #'announcement handling' }
 MIBackgroundMorph >> handleOpenRequest: aWPOpenRequest [
 	model := aWPOpenRequest model.
+	shortcutToRestore := MIModel openPreviewerKeymap shortcut.
 	MIModel openPreviewerKeymap disable.
 	self
 		createShortcutsOn: aWPOpenRequest model;
