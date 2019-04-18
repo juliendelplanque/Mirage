@@ -62,11 +62,13 @@ MIBackgroundMorph >> initialize [
 		beSticky
 ]
 
-{ #category : #'events-processing' }
+{ #category : #'event handling' }
 MIBackgroundMorph >> keyUp: anEvent [
+	"This hook is used to open currently selected window when user release modifier key of the shorcut used to open Mirage.
+	 For example, if Mirage is opened using Shift+Tab, the selected window will be opened when Shift key is released.
+	"
 	super keyUp: anEvent.
-	"User unpress shift key thus putting it up."
-	anEvent key = (KeyboardKey named: 'SHIFT_L')
+	(shortcutToRestore modifier mirageKeyboardKeys includes: anEvent key)
 		ifTrue: [ model openCurrentWindow ]
 ]
 
