@@ -9,7 +9,7 @@ Class {
 
 { #category : #running }
 MIModelTest >> setUp [
-	model := MIModel new.
+	model := MIModelMock new.
 	model windowsManaged: { SystemWindow new . SystemWindow new . SystemWindow new }
 ]
 
@@ -71,8 +71,6 @@ MIModelTest >> testOpen [
 	self
 		assert: blockExecuted1;
 		assert: blockExecuted2.
-	"Delete the background from world."
-	model background delete
 ]
 
 { #category : #'tests-actions' }
@@ -86,8 +84,6 @@ MIModelTest >> testOpenWithIndex [
 		assert: blockExecuted1;
 		assert: blockExecuted2;
 		assert: model currentIndex equals: 42.
-	"Delete the background from world."
-	model background delete
 ]
 
 { #category : #'tests-actions' }
