@@ -4,3 +4,8 @@ Extension { #name : #KMModifier }
 KMModifier >> mirageKeyboardKeys [
 	^ self subclassResponsibility
 ]
+
+{ #category : #'*Mirage' }
+KMModifier >> mirageShouldOpenSelectedWindowAccordingTo: aKeyBoardKey [
+	^ self mirageKeyboardKeys includes: aKeyBoardKey
+]

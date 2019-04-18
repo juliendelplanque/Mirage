@@ -68,7 +68,7 @@ MIBackgroundMorph >> keyUp: anEvent [
 	 For example, if Mirage is opened using Shift+Tab, the selected window will be opened when Shift key is released.
 	"
 	super keyUp: anEvent.
-	(shortcutToRestore modifier mirageKeyboardKeys includes: anEvent key)
+	(shortcutToRestore mirageShouldOpenSelectedWindowAccordingTo: anEvent key)
 		ifTrue: [ model openCurrentWindow ]
 ]
 
