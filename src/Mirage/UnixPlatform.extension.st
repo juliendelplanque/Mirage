@@ -1,6 +1,6 @@
 Extension { #name : #UnixPlatform }
 
 { #category : #'*Mirage' }
-UnixPlatform >> mirageOpenPreviewerShortcut [
+UnixPlatform >> mirageDefaultOpenPreviewerShortcut [
 	^ KMModifier ctrl + KMUntypeableSingleKeyCombination tab
 ]

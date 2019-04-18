@@ -1,6 +1,6 @@
 Extension { #name : #OSPlatform }
 
 { #category : #'*Mirage' }
-OSPlatform >> mirageOpenPreviewerShortcut [
+OSPlatform >> mirageDefaultOpenPreviewerShortcut [
 	^ self shouldBeImplemented
 ]

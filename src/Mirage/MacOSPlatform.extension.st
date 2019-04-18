@@ -1,6 +1,6 @@
 Extension { #name : #MacOSPlatform }
 
 { #category : #'*Mirage' }
-MacOSPlatform >> mirageOpenPreviewerShortcut [
+MacOSPlatform >> mirageDefaultOpenPreviewerShortcut [
 	^ KMModifier shift + KMUntypeableSingleKeyCombination tab
 ]
