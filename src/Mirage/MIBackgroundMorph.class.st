@@ -4,8 +4,8 @@ I am the background of windows preview I hold all other views as submorphs.
 Class {
 	#name : #MIBackgroundMorph,
 	#superclass : #Morph,
-	#traits : 'MIModelListener + MIPreviewerShortcuts',
-	#classTraits : 'MIModelListener classTrait + MIPreviewerShortcuts classTrait',
+	#traits : 'MIModelListener',
+	#classTraits : 'MIModelListener classTrait',
 	#instVars : [
 		'model',
 		'shortcutToRestore'
@@ -20,6 +20,19 @@ MIBackgroundMorph >> addMorph: aMorph [
 							detect: [ :morph | aMorph mirageLevel < morph mirageLevel ]
 							ifNone: [ ^ self addMorphBack: aMorph ].
 	^ self addMorph: aMorph inFrontOf: firstGreater
+]
+
+{ #category : #shortcuts }
+MIBackgroundMorph >> closeWindowShortcut [
+	^ shortcutToRestore modifier + $w asKeyCombination
+]
+
+{ #category : #'shortcuts creation' }
+MIBackgroundMorph >> createShortcutsOn: aWPModel [
+	self
+		on: self nextShortcut do: [ aWPModel next ];
+		on: self previousShortcut do: [ aWPModel previous ];
+		on: self closeWindowShortcut do: [ aWPModel closeCurrentWindow ]
 ]
 
 { #category : #'announcement handling' }
@@ -76,6 +89,17 @@ MIBackgroundMorph >> keyUp: anEvent [
 MIBackgroundMorph >> listenToFocusLossOn: aWPOpenRequest [
 	self announcer when: MorphLostFocus do: [ :ann |
 		aWPOpenRequest model close ].
+]
+
+{ #category : #shortcuts }
+MIBackgroundMorph >> nextShortcut [
+	^ shortcutToRestore
+		| (shortcutToRestore modifier + KMUntypeableSingleKeyCombination arrowRight)
+]
+
+{ #category : #shortcuts }
+MIBackgroundMorph >> previousShortcut [
+	^ shortcutToRestore shift
 ]
 
 { #category : #accessing }
