@@ -274,6 +274,21 @@ MIModel >> openCurrentWindow [
 	self announceCloseRequest
 ]
 
+{ #category : #keymap }
+MIModel >> openPreviewerKeymap [
+	^ self class openPreviewerKeymap
+]
+
+{ #category : #accessing }
+MIModel >> openPreviewerShortcut [
+	^ self class openPreviewerShortcut
+]
+
+{ #category : #accessing }
+MIModel >> openPreviewerShortcut: aKMKeyCombination [
+	^ self class openPreviewerShortcut: aKMKeyCombination
+]
+
 { #category : #actions }
 MIModel >> openWithIndex: anInteger [
 	currentIndex := anInteger.

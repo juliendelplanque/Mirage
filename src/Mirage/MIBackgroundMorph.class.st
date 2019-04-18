@@ -40,15 +40,15 @@ MIBackgroundMorph >> handleCloseRequest: aWPCloseRequest [
 	self announcer unsubscribe: self.
 	aWPCloseRequest model announcer unsubscribe: self.
 	self delete.
-	MIModel openPreviewerKeymap shortcut: shortcutToRestore.
+	model openPreviewerKeymap shortcut: shortcutToRestore.
 	shortcutToRestore := nil
 ]
 
 { #category : #'announcement handling' }
 MIBackgroundMorph >> handleOpenRequest: aWPOpenRequest [
 	model := aWPOpenRequest model.
-	shortcutToRestore := MIModel openPreviewerKeymap shortcut.
-	MIModel openPreviewerKeymap disable.
+	shortcutToRestore := model openPreviewerKeymap shortcut.
+	model openPreviewerKeymap disable.
 	self
 		createShortcutsOn: aWPOpenRequest model;
 		listenToFocusLossOn: aWPOpenRequest;
