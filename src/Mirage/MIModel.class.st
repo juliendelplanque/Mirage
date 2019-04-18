@@ -28,20 +28,18 @@ MIModel class >> createGlobalKMCategory [
 
 { #category : #keymap }
 MIModel class >> createOpenShortcut [
-	self globalKMCategory
-		addKeymapEntry: (KMKeymap
-								named: #'Open windows previews'
-								shortcut: Smalltalk os mirageOpenPreviewerShortcut
-								action: [ self open ]).
+	^ (KMKeymap
+		named: self openMirageKMShortcutName
+		shortcut: Smalltalk os mirageDefaultOpenPreviewerShortcut
+		action: [ self open ]) in: [ :keymap |
+			self globalKMCategory
+				addKeymapEntry: keymap.
+			keymap ]
 ]
 
 { #category : #keymap }
 MIModel class >> globalKMCategory [
-	^ KMRepository default globalCategories
-			detect: [ :cat | cat name = self globalKMCategoryName ]
-			ifNone: [ 
-				self createGlobalKMCategory.
-				^ self globalKMCategory ]
+	^ KMRepository default categoryForName: self globalKMCategoryName
 ]
 
 { #category : #keymap }
@@ -51,8 +49,8 @@ MIModel class >> globalKMCategoryName [
 
 { #category : #installation }
 MIModel class >> install [
+	<script>
 	self
-		createGlobalKMCategory;
 		createOpenShortcut;
 		updateSettingBrowsers
 ]
@@ -82,6 +80,31 @@ MIModel class >> open [
 		yourself
 ]
 
+{ #category : #keymap }
+MIModel class >> openMirageKMShortcutName [
+	^ #'Open windows previews'
+]
+
+{ #category : #keymap }
+MIModel class >> openPreviewerKeymap [
+	^ [ KMRepository default
+		keymapNamed: self openMirageKMShortcutName
+		inCategory: self globalKMCategoryName
+	] on: KeyNotFound do: [ self createOpenShortcut ]
+]
+
+{ #category : #accessing }
+MIModel class >> openPreviewerShortcut [
+	^ self openPreviewerKeymap shortcut
+]
+
+{ #category : #accessing }
+MIModel class >> openPreviewerShortcut: aKMKeyCombination [
+	self openPreviewerKeymap
+		defaultShortcut: aKMKeyCombination;
+		shortcut: aKMKeyCombination
+]
+
 { #category : #opening }
 MIModel class >> openWithIndex: anInteger [
 	| instance |
@@ -104,6 +127,7 @@ MIModel class >> removeShortcuts [
 
 { #category : #installation }
 MIModel class >> uninstall [
+	<script>
 	self
 		removeShortcuts;
 		updateSettingBrowsers

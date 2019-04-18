@@ -26,13 +26,13 @@ MIBackgroundMorph >> handleCloseRequest: aWPCloseRequest [
 	self announcer unsubscribe: self.
 	aWPCloseRequest model announcer unsubscribe: self.
 	self delete.
-	MIModel createOpenShortcut
+	MIModel openPreviewerKeymap reset
 ]
 
 { #category : #'announcement handling' }
 MIBackgroundMorph >> handleOpenRequest: aWPOpenRequest [
 	model := aWPOpenRequest model.
-	MIModel removeShortcuts.
+	MIModel openPreviewerKeymap disable.
 	self
 		createShortcutsOn: aWPOpenRequest model;
 		listenToFocusLossOn: aWPOpenRequest;
