@@ -30,13 +30,13 @@ MISettings class >> wpActivateSettingsOn: aBuilder [
 MISettings class >> wpOpenShortcutSettingsOn: aBuilder [
 	<systemsettings>
 	MIModel isInstalled
-		ifTrue: [
-			(aBuilder shortcut: #mirageOpenShortcutSetting)
-				label: 'Open shortcut';
-				description: 'Set the shortcut to open the windows previewer' translated;
-				category: MIModel globalKMCategoryName;
-				shortcutName: #'Open windows previews';
-				parent: #mirageSettings ]
+		ifFalse: [ ^ self ].
+	(aBuilder shortcut: #mirageOpenShortcutSetting)
+		label: 'Open shortcut';
+		description: 'Set the shortcut to open the windows previewer' translated;
+		category: MIModel globalKMCategoryName;
+		shortcutName: #'Open windows previews';
+		parent: #mirageSettings
 ]
 
 { #category : #'settings-definition' }
